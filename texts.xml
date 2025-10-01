@@ -1629,13 +1629,13 @@
 	</section>
 
 	<section name="linhome_account_created">
-		<entry name="default">Your {appname} account {0} has been created. You will receive a validation e-mail shortly. Click on the link you received by e-mail to finalize the creation of your account.</entry>
-		<entry name="fr">Votre compte {appname} {0} a été crée. Vous allez recevoir un e-mail de validation. Cliquez sur le lien reçu par e-mail pour finaliser la création du compte.</entry>
-		<entry name="pl">Twoje konto {appname} {0} zostało utworzone. Wkrótce otrzymasz e-mail z potwierdzeniem. Kliknij link z otrzymanej wiadomości e-mail, aby sfinalizować tworzenie konta.</entry>
-		<entry name="de">Ihr {appname} Konto {0} wurde erstellt. Sie erhalten in Kürze eine Validierungs-E-Mail. Klicken Sie auf den Link, den Sie per E-Mail erhalten haben, um die Erstellung Ihres Kontos abzuschließen.</entry>
-		<entry name="bg">Вашият {appname} профил {0} е създаден. Скоро ще получите имейл за валидиране. Кликнете върху връзката, която сте получили по имейл, за да финализирате създаването на профила.</entry>
+		<entry name="default">Your {appname} account {0} has been created and activated.</entry>
+		<entry name="fr">Votre compte {appname} {0} a été créé et activé.</entry>
+		<entry name="pl">Twoje konto {appname} {0} zostało utworzone i aktywowane.</entry>
+		<entry name="de">Ihr {appname} Konto {0} wurde erstellt und aktiviert.</entry>
+		<entry name="bg">Вашият {appname} профил {0} беше създаден и активиран.</entry>
 	</section>
-	
+
 	<section name="linhome_account_creation_failed">
 		<entry name="default">An error has occurred. Please try again later or contact Linhome's support team. Error code: {0}</entry>
 		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Linhome. Code d'erreur: {0}</entry>
@@ -1653,5 +1653,86 @@
 	</section>
 	
 	<!-- Android specifics end -->
+
+	<!-- OTP for account creation -->
+	<section name="otp_dialog_hint">
+		<entry name="default">XXXX</entry>
+		<entry name="fr">XXXX</entry>
+		<entry name="pl">XXXX</entry>
+		<entry name="de">XXXX</entry>
+		<entry name="bg">XXXX</entry>
+	</section>
+
+	<section name="otp_dialog_title">
+		<entry name="default">Verification Code</entry>
+		<entry name="fr">Code de vérification</entry>
+		<entry name="pl">Kod weryfikacyjny</entry>
+		<entry name="de">Verifizierungscode</entry>
+		<entry name="bg">Код за потвърждение</entry>
+	</section>
+
+	<section name="otp_dialog_message">
+		<entry name="default">Your account has been created. To activate it please enter the 4 digit verification you received by email. If you did'nt receive an email or wish to activate it later you can do so logging in https://subscribe.linhome.org/.</entry>
+		<entry name="fr">Votre compte a été créé. Pour l'activer, veuillez saisir le code de vérification à 4 chiffres que vous avez reçu par e-mail. Si vous n'avez pas reçu d'e-mail ou souhaitez l'activer plus tard, vous pouvez le faire en vous connectant sur https://subscribe.linhome.org/.</entry>
+		<entry name="pl">Twoje konto zostało utworzone. Aby je aktywować, wprowadź 4-cyfrowy kod weryfikacyjny otrzymany e-mailem. Jeśli nie otrzymałeś wiadomości e-mail lub chcesz aktywować konto później, możesz to zrobić logując się na https://subscribe.linhome.org/.</entry>
+		<entry name="de">Ihr Konto wurde erstellt. Um es zu aktivieren, geben Sie bitte den 4-stelligen Verifizierungscode ein, den Sie per E-Mail erhalten haben. Falls Sie keine E-Mail erhalten haben oder das Konto später aktivieren möchten, können Sie dies durch Anmeldung unter https://subscribe.linhome.org/ tun.</entry>
+		<entry name="bg">Вашият профил беше създаден. За да го активирате, въведете 4-цифрения код за потвърждение, който получихте по имейл. Ако не сте получили имейл или искате да го активирате по-късно, можете да го направите като влезете в https://subscribe.linhome.org/.</entry>
+	</section>
+
+	<section name="otp_validate">
+		<entry name="default">Verify</entry>
+		<entry name="fr">Vérifier</entry>
+		<entry name="pl">Zweryfikuj</entry>
+		<entry name="de">Bestätigen</entry>
+		<entry name="bg">Потвърди</entry>
+	</section>
+
+	<section name="otp_invalid_length">
+		<entry name="default">Invalid code length</entry>
+		<entry name="fr">Longueur du code invalide</entry>
+		<entry name="pl">Nieprawidłowa długość kodu</entry>
+		<entry name="de">Ungültige Codelänge</entry>
+		<entry name="bg">Невалидна дължина на кода</entry>
+	</section>
+
+	<section name="otp_cancelled">
+		<entry name="default">Your account has not been activated. To activate it visit https://subscribe.linhome.org and log into your account</entry>
+		<entry name="fr">Votre compte n'a pas été activé. Pour l'activer, rendez-vous sur https://subscribe.linhome.org et connectez-vous à votre compte.</entry>
+		<entry name="pl">Twoje konto nie zostało aktywowane. Aby je aktywować, odwiedź https://subscribe.linhome.org i zaloguj się na swoje konto.</entry>
+		<entry name="de">Ihr Konto wurde nicht aktiviert. Um es zu aktivieren, besuchen Sie https://subscribe.linhome.org und melden Sie sich bei Ihrem Konto an.</entry>
+		<entry name="bg">Вашият профил не беше активиран. За да го активирате, посетете https://subscribe.linhome.org и влезте в профила си.</entry>
+	</section>
+
+	<section name="otp_error_try_again_message">
+		<entry name="default">This code is not valid. Would you like to try again ?</entry>
+		<entry name="fr">Ce code n'est pas valide. Voulez-vous réessayer?</entry>
+		<entry name="pl">Ten kod jest nieprawidłowy. Czy chcesz spróbować ponownie?</entry>
+		<entry name="de">Dieser Code ist ungültig. Möchten Sie es erneut versuchen?</entry>
+		<entry name="bg">Този код е невалиден. Искате ли да опитате отново?</entry>
+	</section>
+
+	<section name="otp_error_try_again_title">
+		<entry name="default">Invalid code</entry>
+		<entry name="fr">Code invalide</entry>
+		<entry name="pl">Nieprawidłowy kod</entry>
+		<entry name="de">Ungültiger Code</entry>
+		<entry name="bg">Невалиден код</entry>
+	</section>
+
+	<section name="otp_try_again_button">
+		<entry name="default">Try again</entry>
+		<entry name="fr">Réessayer</entry>
+		<entry name="pl">Spróbuj ponownie</entry>
+		<entry name="de">Erneut versuchen</entry>
+		<entry name="bg">Опитайте отново</entry>
+	</section>
+
+	<section name="otp_do_not_try_again">
+		<entry name="default">Close</entry>
+		<entry name="fr">Fermer</entry>
+		<entry name="pl">Zamknij</entry>
+		<entry name="de">Schließen</entry>
+		<entry name="bg">Затвори</entry>
+	</section>
 
 </config>
