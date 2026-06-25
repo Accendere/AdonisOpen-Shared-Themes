@@ -111,7 +111,7 @@
 	<!-- arbitrary values, used for timer or others UI related parameters -->
 
 	<section name="arbitrary-values">
-		<entry name="splash_display_duration_ms">2000</entry>
+		<entry name="splash_display_duration_ms">1000</entry>
 		<entry name="round_rect_button_corner_radius">20</entry>
 		<entry name="segmented_control_corner_radius">10</entry>
 		<entry name="user_input_corner_radius">5</entry> <!-- text input, etc -->
