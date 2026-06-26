@@ -1621,11 +1621,11 @@
 	</section>
 
 	<section name="service_description">
-		<entry name="default">Without push notifications you will not be able to receive calls while the app is closed or running in the background. However you can still use it to call your devices, or receive calls when your app is opened.</entry>
-		<entry name="fr">Sans notifications push vous ne pourrez pas recevoir d'appels lorsque l'application est fermée ou en arrière-plan. Vous pourrez cependant utiliser l'application pour appeler vos appareils ou recevoir des appels quand l'application est ouverte.</entry>
-		<entry name="pl">Powiadomienia push są wymagane do odbierania połączeń przychodzących, gdy aplikacja jest zamknięta lub działa w tle.</entry>
-		<entry name="de">Ohne Push-Benachrichtigungen können Sie keine Anrufe empfangen, während die App geschlossen oder im Hintergrund ausgeführt wird. Sie können sie jedoch weiterhin verwenden, um Ihre Geräte anzurufen oder Anrufe zu empfangen, wenn Ihre App geöffnet wird.</entry>
-		<entry name="bg">Без известия няма да можете да получавате повиквания, докато приложението е затворено или работи във фонов режим. Можете обаче да го използвате, за да се обаждате на устройствата си или да получавате повиквания, когато приложението е отворено.</entry>
+		<entry name="default">Keeps the app running to receive calls when push notifications aren't available.</entry>
+		<entry name="fr">Maintient l'application active pour recevoir les appels quand les notifications push ne sont pas disponibles.</entry>
+		<entry name="pl">Utrzymuje aplikację aktywną, aby odbierać połączenia, gdy powiadomienia push są niedostępne.</entry>
+		<entry name="de">Hält die App aktiv, um Anrufe zu empfangen, wenn Push-Benachrichtigungen nicht verfügbar sind.</entry>
+		<entry name="bg">Поддържа приложението активно, за да получавате повиквания, когато push известията не са налични.</entry>
 	</section>
 
 	<section name="linhome_account_created">
