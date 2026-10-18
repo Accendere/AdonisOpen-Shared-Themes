@@ -1,3 +1,9 @@
+<!--
+  Copyright (c) 2010-2020 Belledonne Communications SARL.
+  Modifications Copyright (c) 2026 Adonis Open Contributors.
+  This file is part of AdonisOpen-Shared-Themes (fork of linhome-shared-themes)
+  and is licensed under the GNU General Public License v3.0 (GPLv3).
+-->
 <config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
 	<section name="colors">
 		<entry name="color_a">#ff5500</entry>
