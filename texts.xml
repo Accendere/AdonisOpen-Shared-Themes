@@ -1901,6 +1901,28 @@
 		<entry name="fr">Supprimer auto. l'historique après</entry>
 	</section>
 
+	<section name="settings_history_retention_intercom">
+		<entry name="default">Intercom history retention</entry>
+		<entry name="fr">Conservation historique interphone</entry>
+		<entry name="pl">Okres historii domofonu</entry>
+		<entry name="de">Aufbewahrungsfrist Gegensprechanlage</entry>
+		<entry name="es">Retención de historial de interfono</entry>
+		<entry name="it">Conservazione cronologia citofono</entry>
+		<entry name="pt">Retenção de histórico do intercomunicador</entry>
+		<entry name="bg">Запазване на историята на домофона</entry>
+	</section>
+
+	<section name="settings_history_retention_voice">
+		<entry name="default">Voice calls history retention</entry>
+		<entry name="fr">Conservation historique appels vocaux</entry>
+		<entry name="pl">Okres historii połączeń głosowych</entry>
+		<entry name="de">Aufbewahrungsfrist Sprachanrufe</entry>
+		<entry name="es">Retención de historial de llamadas de voz</entry>
+		<entry name="it">Conservazione cronologia chiamate vocali</entry>
+		<entry name="pt">Retenção de histórico de chamadas de voz</entry>
+		<entry name="bg">Запазване на историята на гласови повиквания</entry>
+	</section>
+
 	<section name="retention_never">
 		<entry name="default">Never</entry>
 		<entry name="fr">Jamais</entry>
