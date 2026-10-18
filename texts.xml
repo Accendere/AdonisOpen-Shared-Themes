@@ -1813,6 +1813,26 @@
 		<entry name="fr">+ Ajouter</entry>
 	</section>
 
+	<section name="history_copy_number">
+		<entry name="default">Copy</entry>
+		<entry name="fr">Copier</entry>
+		<entry name="de">Kopieren</entry>
+		<entry name="es">Copiar</entry>
+		<entry name="it">Copia</entry>
+		<entry name="pt">Copiar</entry>
+		<entry name="bg">Копирай</entry>
+	</section>
+
+	<section name="history_number_copied">
+		<entry name="default">Copied: {0}</entry>
+		<entry name="fr">Copié : {0}</entry>
+		<entry name="de">Kopiert: {0}</entry>
+		<entry name="es">Copiado: {0}</entry>
+		<entry name="it">Copiato: {0}</entry>
+		<entry name="pt">Copiado: {0}</entry>
+		<entry name="bg">Копирано: {0}</entry>
+	</section>
+
 	<section name="settings_theme_title">
 		<entry name="default">App theme</entry>
 		<entry name="fr">Thème de l'application</entry>
