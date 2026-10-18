@@ -1473,6 +1473,28 @@
 		<entry name="bg">Някой звъни на звънеца.</entry>
 	</section>
 
+	<section name="incoming_voice_call">
+		<entry name="default">Incoming voice call</entry>
+		<entry name="fr">Appel vocal entrant</entry>
+		<entry name="pl">Przychodzące połączenie głosowe</entry>
+		<entry name="de">Eingehender Sprachanruf</entry>
+		<entry name="es">Llamada de voz entrante</entry>
+		<entry name="it">Chiamata vocale in arrivo</entry>
+		<entry name="pt">Chamada de voz recebida</entry>
+		<entry name="bg">Входящо гласово обаждане</entry>
+	</section>
+
+	<section name="call_type_voice_call">
+		<entry name="default">Voice Call</entry>
+		<entry name="fr">Appel vocal</entry>
+		<entry name="pl">Połączenie głosowe</entry>
+		<entry name="de">Sprachanruf</entry>
+		<entry name="es">Llamada de voz</entry>
+		<entry name="it">Chiamata vocale</entry>
+		<entry name="pt">Chamada de voz</entry>
+		<entry name="bg">Гласово обаждане</entry>
+	</section>
+
 	<section name="call_button_accept">
 		<entry name="default">Accept</entry>
 		<entry name="fr">Décrocher</entry>

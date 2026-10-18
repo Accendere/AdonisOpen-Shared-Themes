@@ -36,4 +36,11 @@
 
 
 
+	<section name="phone_call">
+		<entry name="textkey">call_type_voice_call</entry>
+		<entry name="icon">icons/phone</entry>
+		<entry name="icon_circle">icons/icon_phone_call_circle</entry>
+		<entry name="hasvideo">0</entry>
+		<entry name="hasaudio">1</entry>
+	</section>
 </config>
