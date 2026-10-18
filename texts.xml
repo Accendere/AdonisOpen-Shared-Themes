@@ -16,15 +16,15 @@
 	 -->
 	
 	<section name="appname">
-		<entry name="default">Linhome</entry>
+		<entry name="default">Adonis Open</entry>
 	</section>
 
 	<section name="splash_title">
-		<entry name="default">The white label app for IP intercom systems</entry>
-		<entry name="fr">L'app customisable pour les interphones IP</entry>
-		<entry name="pl">Konfigurowalna aplikacja dla domofonów IP</entry>
-		<entry name="de">Die frei konfigurierbare App für IP-Gegensprechanlagen</entry>
-		<entry name="bg">Приложението с бял етикет за IP домофонни системи</entry>
+		<entry name="default">Smart intercom system for mobile</entry>
+		<entry name="fr">Système d'interphone intelligent pour mobile</entry>
+		<entry name="pl">Inteligentny system domofonowy na telefon</entry>
+		<entry name="de">Smarte Gegensprechanlage für Mobilgeräte</entry>
+		<entry name="bg">Смарт домофонна система за мобилни устройства</entry>
 	</section>
 
 	<section name="devices">
@@ -169,11 +169,11 @@
 	</section>
 
 	<section name="menu_account">
-		<entry name="default">My account</entry>
-		<entry name="fr">Mon compte</entry>
-		<entry name="pl">Moje konto</entry>
-		<entry name="de">Mein Konto</entry>
-		<entry name="bg">Мой профил</entry>
+		<entry name="default">Account</entry>
+		<entry name="fr">Compte</entry>
+		<entry name="pl">Konto</entry>
+		<entry name="de">Konto</entry>
+		<entry name="bg">Профил</entry>
 	</section>
 
 	<section name="menu_settings">
@@ -1059,11 +1059,11 @@
 	</section>
 	
 	<section name="device_address">
-		<entry name="default">SIP address</entry>
-		<entry name="fr">Adresse SIP</entry>
-		<entry name="pl">Adres SIP</entry>
-		<entry name="de">SIP Adresse</entry>
-		<entry name="bg">SIP адрес</entry>
+		<entry name="default">Primary SIP address</entry>
+		<entry name="fr">Adresse SIP principale</entry>
+		<entry name="pl">Główny adres SIP</entry>
+		<entry name="de">Primäre SIP-Adresse</entry>
+		<entry name="bg">Основен SIP адрес</entry>
 	</section>
 
 	<section name="device_address_already_exists">
@@ -1076,6 +1076,19 @@
 	
 	<section name="device_address_hint">
 		<entry name="default">ex : sip:1234@sip.linhome.org</entry>
+	</section>
+	
+	<section name="device_alternative_address">
+		<entry name="default">Alternative SIP address (incoming calls only)</entry>
+		<entry name="fr">Adresse SIP alternative (appels entrants uniquement)</entry>
+		<entry name="pl">Alternatywny adres SIP (tylko połączenia przychodzące)</entry>
+		<entry name="de">Alternative SIP-Adresse (nur eingehende Anrufe)</entry>
+		<entry name="bg">Алтернативен SIP адрес (само входящи повиквания)</entry>
+	</section>
+
+	<section name="device_alternative_address_hint">
+		<entry name="default">ex : sip:1234@192.168.1.50 (optional, receive-only)</entry>
+		<entry name="fr">ex : sip:1234@192.168.1.50 (optionnel, récepteur)</entry>
 	</section>
 		
 	<section name="device_type_select">
@@ -1275,7 +1288,8 @@
 	</section>
 	
 	<section name="license_text">
-		<entry name="default">GNU General Public License V3</entry>
+		<entry name="default">GNU General Public License v3</entry>
+		<entry name="fr">Licence Publique Générale GNU v3</entry>
 	</section>
 	
 	<section name="license_link">
@@ -1283,7 +1297,35 @@
 	</section>
 	
 	<section name="copyright_text">
-		<entry name="default">© Belledonne Communications</entry>
+		<entry name="default">© 2010-2020 Belledonne Communications SARL&#10;© 2026 Adonis Open Contributors</entry>
+	</section>
+
+	<section name="about_fork_notice">
+		<entry name="default">Adonis Open is a fork of Linhome, modified for smart home integration. Linhome is a registered trademark of Belledonne Communications.</entry>
+		<entry name="fr">Adonis Open est un fork de Linhome, modifié pour l'intégration domotique. Linhome est une marque déposée de Belledonne Communications.</entry>
+	</section>
+
+	<section name="about_disclaimer">
+		<entry name="default">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</entry>
+		<entry name="fr">Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE; sans même la garantie implicite de COMMERCIALISATION ou D'ADAPTATION À UN USAGE PARTICULIER. Consultez la Licence Publique Générale GNU pour plus de détails.</entry>
+	</section>
+
+	<section name="about_source_link">
+		<entry name="default">Source Code (GitHub)</entry>
+		<entry name="fr">Code source (GitHub)</entry>
+	</section>
+
+	<section name="about_source_url">
+		<entry name="default">https://github.com/adonis-open/adonis-open</entry>
+	</section>
+
+	<section name="about_upstream_link">
+		<entry name="default">Original Project (Linhome)</entry>
+		<entry name="fr">Projet d'origine (Linhome)</entry>
+	</section>
+
+	<section name="about_upstream_url">
+		<entry name="default">https://www.linhome.org</entry>
 	</section>
 
 	<section name="privacy_policy_text">
@@ -1293,6 +1335,20 @@
 	</section>
    	<section name="privacy_policy_link">
 		<entry name="default">https://www.linhome.org/privacy-policy</entry>
+	</section>
+
+	<section name="widget_receive_calls_title">
+		<entry name="default">Adonis Calls</entry>
+	</section>
+
+	<section name="widget_calls_active">
+		<entry name="default">Receiving calls</entry>
+		<entry name="fr">Appels activés</entry>
+	</section>
+
+	<section name="widget_calls_paused">
+		<entry name="default">Calls paused</entry>
+		<entry name="fr">Appels en pause</entry>
 	</section>
 
 
@@ -1733,6 +1789,189 @@
 		<entry name="pl">Zamknij</entry>
 		<entry name="de">Schließen</entry>
 		<entry name="bg">Затвори</entry>
+	</section>
+
+	<section name="delete">
+		<entry name="default">Delete</entry>
+		<entry name="fr">Supprimer</entry>
+		<entry name="de">Löschen</entry>
+	</section>
+
+	<section name="clear_all">
+		<entry name="default">Clear all</entry>
+		<entry name="fr">Tout effacer</entry>
+		<entry name="de">Alle löschen</entry>
+	</section>
+
+	<section name="delete_all_history_confirm_message">
+		<entry name="default">Are you sure you want to delete all call history ({0} entries)?</entry>
+		<entry name="fr">Confirmez-vous la suppression de tout l'historique ({0} entrées) ?</entry>
+	</section>
+
+	<section name="history_add_device">
+		<entry name="default">+ Save Device</entry>
+		<entry name="fr">+ Ajouter</entry>
+	</section>
+
+	<section name="settings_theme_title">
+		<entry name="default">App theme</entry>
+		<entry name="fr">Thème de l'application</entry>
+	</section>
+
+	<section name="theme_orange">
+		<entry name="default">Sunset Orange</entry>
+	</section>
+
+	<section name="theme_slate">
+		<entry name="default">Slate &amp; Cyber Blue</entry>
+	</section>
+
+	<section name="theme_emerald">
+		<entry name="default">Emerald Smart-Home</entry>
+	</section>
+
+	<section name="theme_obsidian">
+		<entry name="default">Obsidian &amp; Amber Gold</entry>
+	</section>
+
+	<section name="settings_app_enabled">
+		<entry name="default">Receive intercom calls (Enable app)</entry>
+		<entry name="fr">Recevoir les appels (Activer l'app)</entry>
+	</section>
+
+	<section name="menu_app_enabled">
+		<entry name="default">Receive Calls: Active</entry>
+		<entry name="fr">Appels : Activés</entry>
+	</section>
+
+	<section name="menu_app_disabled">
+		<entry name="default">Receive Calls: Paused</entry>
+		<entry name="fr">Appels : En pause</entry>
+	</section>
+
+	<section name="settings_save_call_videos">
+		<entry name="default">Save video recordings from calls</entry>
+		<entry name="fr">Enregistrer les vidéos des appels</entry>
+	</section>
+
+	<section name="settings_history_retention">
+		<entry name="default">Auto-delete history older than</entry>
+		<entry name="fr">Supprimer auto. l'historique après</entry>
+	</section>
+
+	<section name="retention_never">
+		<entry name="default">Never</entry>
+		<entry name="fr">Jamais</entry>
+	</section>
+
+	<section name="retention_1_day">
+		<entry name="default">1 day</entry>
+		<entry name="fr">1 jour</entry>
+	</section>
+
+	<section name="retention_2_days">
+		<entry name="default">2 days</entry>
+		<entry name="fr">2 jours</entry>
+	</section>
+
+	<section name="retention_3_days">
+		<entry name="default">3 days</entry>
+		<entry name="fr">3 jours</entry>
+	</section>
+
+	<section name="retention_7_days">
+		<entry name="default">7 days</entry>
+		<entry name="fr">7 jours</entry>
+	</section>
+
+	<section name="retention_30_days">
+		<entry name="default">30 days</entry>
+		<entry name="fr">30 jours</entry>
+	</section>
+
+	<section name="retention_90_days">
+		<entry name="default">90 days</entry>
+		<entry name="fr">90 jours</entry>
+	</section>
+
+	<section name="settings_notify_answered_elsewhere">
+		<entry name="default">Notify when call answered on another device</entry>
+		<entry name="fr">Notifier si répondu sur un autre appareil</entry>
+	</section>
+
+	<section name="call_accepted_video_only_gsm_active">
+		<entry name="default">Phone call in progress: answered in video-only mode (mic muted)</entry>
+		<entry name="fr">Appel téléphonique en cours : réponse en mode vidéo seul (micro coupé)</entry>
+	</section>
+
+	<section name="silent_accept_auto_close_timer">
+		<entry name="default">Video preview — auto-closing in {0}s</entry>
+		<entry name="fr">Aperçu vidéo — fermeture auto. dans {0}s</entry>
+	</section>
+
+	<section name="call_answered_elsewhere_banner">
+		<entry name="default">Call was answered on another device</entry>
+		<entry name="fr">L'appel a été pris sur un autre appareil</entry>
+	</section>
+
+	<section name="settings_auto_close_timer_enabled">
+		<entry name="default">Auto-close video after opening door</entry>
+		<entry name="fr">Fermeture auto. après ouverture porte</entry>
+	</section>
+
+	<section name="settings_auto_close_timer_enabled_desc">
+		<entry name="default">Automatically ends the call when door is opened without answering</entry>
+		<entry name="fr">Raccroche automatiquement après l'ouverture sans réponse</entry>
+	</section>
+
+	<section name="settings_auto_close_timer_duration">
+		<entry name="default">Auto-close timer duration</entry>
+		<entry name="fr">Durée avant fermeture auto.</entry>
+	</section>
+
+	<section name="door_opening_in_progress">
+		<entry name="default">Opening door...</entry>
+		<entry name="fr">Ouverture de la porte...</entry>
+	</section>
+
+	<section name="door_opened_confirmed">
+		<entry name="default">Door open command sent</entry>
+		<entry name="fr">Commande d'ouverture envoyée</entry>
+	</section>
+
+	<section name="action_sending">
+		<entry name="default">{0} in progress...</entry>
+		<entry name="fr">{0} en cours...</entry>
+	</section>
+
+	<section name="timer_cancelled_preview_active">
+		<entry name="default">Timer cancelled — video preview active</entry>
+		<entry name="fr">Minuteur annulé — aperçu vidéo actif</entry>
+	</section>
+
+	<section name="call_answered_elsewhere_by_banner">
+		<entry name="default">Call was answered by {0}</entry>
+		<entry name="fr">Appel pris par {0}</entry>
+	</section>
+
+	<section name="call_declined_elsewhere_banner">
+		<entry name="default">Call was declined on another device</entry>
+		<entry name="fr">L'appel a été refusé sur un autre appareil</entry>
+	</section>
+
+	<section name="call_open_door_button">
+		<entry name="default">Open door</entry>
+		<entry name="fr">Ouvrir la porte</entry>
+	</section>
+
+	<section name="adonis_autoconfig_success">
+		<entry name="default">Configuration applied: SIP account and {0} device(s) ready!</entry>
+		<entry name="fr">Configuration appliquée : compte SIP et {0} appareil(s) prêts !</entry>
+	</section>
+
+	<section name="adonis_autoconfig_error">
+		<entry name="default">Failed to apply configuration: {0}</entry>
+		<entry name="fr">Échec de l'application de la configuration : {0}</entry>
 	</section>
 
 </config>

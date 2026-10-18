@@ -1,42 +1,106 @@
 <config xmlns="http://www.linphone.org/xsds/lpconfig.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.linphone.org/xsds/lpconfig.xsd lpconfig.xsd">
 	<section name="colors">
-		<entry name="color_a">#ffff5e00</entry>
-		<entry name="color_b">#444444</entry>
+		<entry name="color_a">#ff5500</entry>
+		<entry name="color_b">#0f172a</entry>
 		<entry name="color_c">#ffffff</entry>
-		<entry name="color_d">#f4f4f4</entry>
-		<entry name="color_ealpha_10">#19e20000</entry>
-		<entry name="color_e">#e20000</entry>
-		<entry name="color_f">#e6e6e6</entry>
-		<entry name="color_g">#9f9f9f</entry>
-		<entry name="color_h">#c7c7c7</entry>
-		<entry name="color_i">#dddddd</entry>
-		<entry name="color_j">#313131</entry>
-		<entry name="color_k">#67ae63</entry>
+		<entry name="color_d">#ffffff</entry>
+		<entry name="color_ealpha_10">#19e11d48</entry>
+		<entry name="color_e">#e11d48</entry>
+		<entry name="color_f">#f1f5f9</entry>
+		<entry name="color_g">#64748b</entry>
+		<entry name="color_h">#e2e8f0</entry>
+		<entry name="color_i">#fff0e6</entry>
+		<entry name="color_j">#0f172a</entry>
+		<entry name="color_k">#10b981</entry>
 		<entry name="color_l">#000000</entry>
-		<entry name="color_m">#6081c9</entry>
+		<entry name="color_m">#3b82f6</entry>
 		<entry name="color_n">#ffdde6f5</entry>
-		<entry name="color_o">#d44e00</entry>
+		<entry name="color_o">#d94600</entry>
 		<entry name="color_p">#ffc09b</entry>
-		<entry name="color_q">#40793d</entry>
-		<entry name="color_r">#b60000</entry>
-		<entry name="color_s">#ffb863</entry>
-		<entry name="color_t">#ffc9a1</entry> <!-- border of new history items -->
-		<entry name="color_u">#d8d8d8</entry> <!-- background of image place holder in history list -->
+		<entry name="color_q">#059669</entry>
+		<entry name="color_r">#be123c</entry>
+		<entry name="color_s">#fb923c</entry>
+		<entry name="color_t">#ff8547</entry> <!-- border of new history items -->
+		<entry name="color_u">#334155</entry> <!-- background of image place holder in history list -->
 
-		
-		
 		<!-- Android specific -->
-		<entry name="notification_led_color">#ffff5e00</entry>
-		<entry name="progress_bar">#ffb863</entry>
+		<entry name="notification_led_color">#ff5500</entry>
+		<entry name="progress_bar">#fb923c</entry>
+	</section>
 
+	<section name="colors.orange">
+		<entry name="color_a">#ff5500</entry>
+		<entry name="color_b">#0f172a</entry>
+		<entry name="color_d">#ffffff</entry>
+		<entry name="color_f">#f1f5f9</entry>
+		<entry name="color_g">#64748b</entry>
+		<entry name="color_h">#e2e8f0</entry>
+		<entry name="color_i">#fff0e6</entry>
+		<entry name="color_j">#0f172a</entry>
+		<entry name="color_o">#d94600</entry>
+		<entry name="color_s">#fb923c</entry>
+		<entry name="color_t">#ff8547</entry>
+		<entry name="color_u">#334155</entry>
+		<entry name="notification_led_color">#ff5500</entry>
+		<entry name="progress_bar">#fb923c</entry>
+	</section>
 
+	<section name="colors.slate">
+		<entry name="color_a">#0284c7</entry>
+		<entry name="color_b">#0f172a</entry>
+		<entry name="color_d">#ffffff</entry>
+		<entry name="color_f">#f1f5f9</entry>
+		<entry name="color_g">#64748b</entry>
+		<entry name="color_h">#e2e8f0</entry>
+		<entry name="color_i">#e0f2fe</entry>
+		<entry name="color_j">#0f172a</entry>
+		<entry name="color_o">#0369a1</entry>
+		<entry name="color_s">#38bdf8</entry>
+		<entry name="color_t">#38bdf8</entry>
+		<entry name="color_u">#334155</entry>
+		<entry name="notification_led_color">#0284c7</entry>
+		<entry name="progress_bar">#38bdf8</entry>
+	</section>
+
+	<section name="colors.emerald">
+		<entry name="color_a">#0d9488</entry>
+		<entry name="color_b">#0b1918</entry>
+		<entry name="color_d">#ffffff</entry>
+		<entry name="color_f">#f0f5f4</entry>
+		<entry name="color_g">#526d6a</entry>
+		<entry name="color_h">#e2e8f0</entry>
+		<entry name="color_i">#ccfbf1</entry>
+		<entry name="color_j">#0b1918</entry>
+		<entry name="color_o">#0f766e</entry>
+		<entry name="color_s">#34d399</entry>
+		<entry name="color_t">#2dd4bf</entry>
+		<entry name="color_u">#1e3a38</entry>
+		<entry name="notification_led_color">#0d9488</entry>
+		<entry name="progress_bar">#34d399</entry>
+	</section>
+
+	<section name="colors.obsidian">
+		<entry name="color_a">#f59e0b</entry>
+		<entry name="color_b">#18181b</entry>
+		<entry name="color_d">#ffffff</entry>
+		<entry name="color_f">#f4f4f5</entry>
+		<entry name="color_g">#71717a</entry>
+		<entry name="color_h">#e4e4e7</entry>
+		<entry name="color_i">#fef3c7</entry>
+		<entry name="color_j">#09090b</entry>
+		<entry name="color_o">#b45309</entry>
+		<entry name="color_s">#52525b</entry>
+		<entry name="color_t">#fbbf24</entry>
+		<entry name="color_u">#27272a</entry>
+		<entry name="notification_led_color">#f59e0b</entry>
+		<entry name="progress_bar">#fbbf24</entry>
 	</section>
 
 	<!-- Gradient color gradient-color.<key in app> -->
 
-	<section name="gradient-color.dark_light_vertical_gradient"> <!--Used by launch screen -->
-		<entry name="from">color_a</entry>
-		<entry name="to">color_s</entry>
+	<section name="gradient-color.dark_light_vertical_gradient"> <!--Used by launch & call screens -->
+		<entry name="from">color_j</entry>
+		<entry name="to">color_u</entry>
 		<entry name="orientation">top_bottom</entry> <!--Supported values are : top_bottom (default), bottom_top, right_left, left_right -->
 	</section>
 
@@ -44,8 +108,8 @@
 	<!-- Button effects DEFAULT/SELECTED/DISABLED selection-effect. One color for default state, one color for selected state <key in app> -->
 
 	<section name="selection-effect.sidemenu_option">
-		<entry name="default">color_b</entry>
-		<entry name="selected">color_a</entry>
+		<entry name="default">color_c</entry>
+		<entry name="selected">color_i</entry>
 	</section>
 
 	<section name="selection-effect.dropdown_list">
@@ -54,8 +118,8 @@
 	</section>
 
 	<section name="selection-effect.settings_item">
-		<entry name="default">color_c</entry>
-		<entry name="selected">color_h</entry>
+		<entry name="default">color_d</entry>
+		<entry name="selected">color_f</entry>
 	</section>
 
 	<section name="selection-effect.primary_color">
@@ -103,8 +167,8 @@
 		<entry name="selected">color_c</entry>
 	</section>
 	<section name="selection-effect.segmented_control_background">
-		<entry name="default">color_f</entry>
-		<entry name="selected">color_g</entry>
+		<entry name="default">color_d</entry>
+		<entry name="selected">color_a</entry>
 	</section>
 	
 
@@ -112,11 +176,11 @@
 
 	<section name="arbitrary-values">
 		<entry name="splash_display_duration_ms">1000</entry>
-		<entry name="round_rect_button_corner_radius">20</entry>
-		<entry name="segmented_control_corner_radius">10</entry>
-		<entry name="user_input_corner_radius">5</entry> <!-- text input, etc -->
-		<entry name="device_in_device_list_corner_radius">5</entry>
-		<entry name="call_in_history_list_corner_radius">5</entry>
+		<entry name="round_rect_button_corner_radius">24</entry>
+		<entry name="segmented_control_corner_radius">14</entry>
+		<entry name="user_input_corner_radius">14</entry> <!-- text input, etc -->
+		<entry name="device_in_device_list_corner_radius">20</entry>
+		<entry name="call_in_history_list_corner_radius">18</entry>
 		<entry name="device_first_image_aspect_ratio">0.75</entry> <!-- 4:3 -->
 		<entry name="store_user_data_in_private_storage">1</entry>
 		<entry name="video_view_corner_radius">20</entry>
@@ -126,62 +190,60 @@
 
 	<section name="textview-style.splash_title">
 		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Regular</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
+		<entry name="font">Roboto-Regular</entry>
 		<entry name="size">15</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
+		<entry name="align">center</entry>
 	</section>
 
 
 	<section name="textview-style.about_text">
 		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Bold</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
+		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">13</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
+		<entry name="align">center</entry>
 	</section>
 
 
 	<section name="textview-style.about_link">
 		<entry name="text-color">color_a</entry>
-		<entry name="font">Roboto-Bold</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
-		<entry name="size">17</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">16</entry>
+		<entry name="align">center</entry>
 	</section>
 
 	<section name="textview-style.tabbar_option">
-		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">15</entry>
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">14</entry>
 		<entry name="align">start</entry>
 	</section>
 	
 	<section name="textview-style.tabbar_unread_count">
 		<entry name="text-color">color_c</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">12</entry>
+		<entry name="size">11</entry>
 		<entry name="align">center</entry>
 	</section>
 
 	<section name="textview-style.sidemenu_option">
-		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">18</entry>
+		<entry name="text-color">color_b</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">15</entry>
 		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.toolbar_title">
-		<entry name="text-color">color_c</entry>
+		<entry name="text-color">color_b</entry>
 		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">20</entry>
 		<entry name="align">center</entry>
-		<entry name="allcaps">1</entry>
 	</section>
 	
 	<section name="textview-style.toolbar_action">
-		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Regular</entry>
+		<entry name="text-color">color_a</entry>
+		<entry name="font">Roboto-Bold</entry>
 		<entry name="size">12</entry>
 		<entry name="align">center</entry>
-		<entry name="allcaps">1</entry>
 	</section>
 	
 	<section name="textview-style.round_rect_button">
@@ -251,15 +313,14 @@
 
 
 	<section name="textview-style.form_input_title">
-		<entry name="text-color">color_b</entry>
+		<entry name="text-color">color_g</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">10</entry>
+		<entry name="size">12</entry>
 		<entry name="align">start</entry>
-		<entry name="allcaps">1</entry>
 	</section>
 
 	<section name="textedit-style.text_input_text">
-		<entry name="hint-text-color">color_h</entry>
+		<entry name="hint-text-color">color_g</entry>
 		<entry name="text-color">color_b</entry>
 		<entry name="background-color">color_d</entry>
 		<entry name="error-text-color">color_e</entry>
@@ -272,27 +333,27 @@
 	<section name="textview-style.text_input_error">
 		<entry name="text-color">color_e</entry>
 		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">11</entry>
+		<entry name="size">12</entry>
 		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.segmented_control">
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">15</entry>
+		<entry name="size">14</entry>
 		<entry name="align">center</entry>
 		<entry name="allcaps">1</entry>
 	</section>
 
 	<section name="textview-style.settings_title">
 		<entry name="text-color">color_b</entry>
-		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">18</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">16</entry>
 		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.settings_subtitle">
-		<entry name="text-color">color_b</entry>
-		<entry name="font">Roboto-Italic</entry>
+		<entry name="text-color">color_g</entry>
+		<entry name="font">Roboto-Regular</entry>
 		<entry name="size">13</entry>
 		<entry name="align">start</entry>
 	</section>
@@ -315,7 +376,7 @@
 	<section name="textview-style.info_bubble"> <!-- example Select the type of device -->
 		<entry name="text-color">color_j</entry>
 		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">10</entry>
+		<entry name="size">11</entry>
 		<entry name="align">center</entry>
 	</section>
 
@@ -323,30 +384,22 @@
 
 	<section name="textview-style.device_list_device_name">
 		<entry name="text-color">color_b</entry>
-		<entry name="font">Roboto-Bold</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
-		<entry name="size">15</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">18</entry>
+		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.device_list_device_address">
-		<entry name="text-color">color_j</entry>
-		<entry name="font">Roboto-Regular</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
-		<entry name="size">10</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
-	</section>
-
-
-	<section name="textview-style.device_list_device_address">
-		<entry name="text-color">color_j</entry>
-		<entry name="font">Roboto-Regular</entry> <!-- Font name must match name in ZIP or in Asset of the app. Asset is looked up first then zip -->
-		<entry name="size">10</entry>
-		<entry name="align">center</entry> <!--  supported values are : start (default), center, end. -->
+		<entry name="text-color">color_g</entry>
+		<entry name="font">Roboto-Regular</entry>
+		<entry name="size">13</entry>
+		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.call_action_button">
 		<entry name="text-color">color_c</entry>
-		<entry name="font">Roboto-Regular</entry>
-		<entry name="size">15</entry>
+		<entry name="font">Roboto-Bold</entry>
+		<entry name="size">14</entry>
 		<entry name="align">center</entry>
 	</section>
 
@@ -362,16 +415,16 @@
 	<!-- history -->
 	
 	<section name="textview-style.history_list_day_name">
-		<entry name="text-color">color_b</entry>
+		<entry name="text-color">color_g</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">15</entry>
+		<entry name="size">13</entry>
 		<entry name="align">start</entry>
 	</section>
 
 	<section name="textview-style.history_list_device_name">
 		<entry name="text-color">color_b</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">15</entry>
+		<entry name="size">16</entry>
 		<entry name="align">start</entry>
 	</section>
 	
@@ -385,7 +438,7 @@
 	<section name="textview-style.history_no_media_found">
 		<entry name="text-color">color_c</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">12</entry>
+		<entry name="size">11</entry>
 		<entry name="align">center</entry>
 	</section>
 	
@@ -399,7 +452,7 @@
 	<section name="textview-style.history_list_new_tag">
 		<entry name="text-color">color_a</entry>
 		<entry name="font">Roboto-Bold</entry>
-		<entry name="size">10</entry>
+		<entry name="size">11</entry>
 		<entry name="align">end</entry>
 	</section>
 	
