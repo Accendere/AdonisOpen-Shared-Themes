@@ -872,6 +872,17 @@
 		<entry name="de">Nicht verbunden</entry>
 		<entry name="bg">Няма връзка</entry>
 	</section>
+
+	<section name="registration_state_paused">
+		<entry name="default">Calls paused</entry>
+		<entry name="fr">Appels en pause</entry>
+		<entry name="pl">Połączenia wstrzymane</entry>
+		<entry name="de">Anrufe pausiert</entry>
+		<entry name="es">Llamadas en pausa</entry>
+		<entry name="it">Chiamate in pausa</entry>
+		<entry name="pt">Chamadas em pausa</entry>
+		<entry name="bg">Повикванията са на пауза</entry>
+	</section>
 	
 	<!-- Settings -->
 
@@ -1895,6 +1906,24 @@
 	<section name="menu_app_disabled">
 		<entry name="default">Receive Calls: Paused</entry>
 		<entry name="fr">Appels : En pause</entry>
+	</section>
+
+	<section name="toolbar_calls_active">
+		<entry name="default">Calls ON</entry>
+		<entry name="fr">Appels ON</entry>
+		<entry name="de">Anrufe AN</entry>
+		<entry name="es">Llamadas ON</entry>
+		<entry name="it">Chiamate ON</entry>
+		<entry name="pt">Chamadas ON</entry>
+	</section>
+
+	<section name="toolbar_calls_paused">
+		<entry name="default">Paused</entry>
+		<entry name="fr">En pause</entry>
+		<entry name="de">Pausiert</entry>
+		<entry name="es">En pausa</entry>
+		<entry name="it">In pausa</entry>
+		<entry name="pt">Em pausa</entry>
 	</section>
 
 	<section name="settings_save_call_videos">
