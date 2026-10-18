@@ -1,20 +1,15 @@
-# linhome-shared-themes
+# AdonisOpen-Shared-Themes
 
-Added as submodule of linhome-ios and linhome-android app, contains the shared resources (theme, texts, etc).
+Shared theme resources (colors, SVG icons, texts, and localizations) for Adonis Open.
 
-Used at build time by Android and iOS Apps
+> **Note**: This repository is a fork of [linhome-shared-themes](https://gitlab.linphone.org/BC/public/linhome-shared-themes) by Belledonne Communications.
 
+Added as a git submodule to AdonisOpen-Android and related apps. Used at build time to package application themes.
 
-Deploy Android : 
-from linhome-android/ repo
-cd linhome-shared-themes
-git pull
-rebuild project
-
-Deploy iOS : 
-from linhome-ios/ repo
-cd linhome-shared-themes
-git pull
-rebuild project
-
-
+### Deploy Android:
+From the `AdonisOpen-Android/` repository:
+```bash
+git submodule update --remote AdonisOpen-Shared-Themes
+# Rebuild the project
+./gradlew zipTheme assembleDebug
+```
