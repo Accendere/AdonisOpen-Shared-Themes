@@ -1944,6 +1944,69 @@
 		<entry name="pt">Chamadas da porta em pausa. Toque para voltar a recebê-las.</entry>
 	</section>
 
+	<section name="adonis_claim_from">
+		<entry name="default">From {0}</entry>
+		<entry name="fr">Depuis {0}</entry>
+		<entry name="de">Von {0}</entry>
+		<entry name="es">Desde {0}</entry>
+		<entry name="it">Da {0}</entry>
+		<entry name="pt">De {0}</entry>
+	</section>
+
+	<section name="claim_fetching">
+		<entry name="default">Getting your setup from {0}…</entry>
+		<entry name="fr">Récupération de votre configuration depuis {0}…</entry>
+		<entry name="de">Ihre Einrichtung wird von {0} abgerufen…</entry>
+		<entry name="es">Obteniendo tu configuración desde {0}…</entry>
+		<entry name="it">Recupero della configurazione da {0}…</entry>
+		<entry name="pt">A obter a sua configuração de {0}…</entry>
+	</section>
+
+	<section name="claim_expired">
+		<entry name="default">This setup link has expired or was already used. Ask for a new one.</entry>
+		<entry name="fr">Ce lien de configuration a expiré ou a déjà été utilisé. Demandez-en un nouveau.</entry>
+		<entry name="de">Dieser Einrichtungslink ist abgelaufen oder wurde bereits verwendet. Fordern Sie einen neuen an.</entry>
+		<entry name="es">Este enlace de configuración ha caducado o ya se usó. Pide uno nuevo.</entry>
+		<entry name="it">Questo link di configurazione è scaduto o è già stato usato. Chiedine uno nuovo.</entry>
+		<entry name="pt">Este link de configuração expirou ou já foi usado. Peça um novo.</entry>
+	</section>
+
+	<section name="claim_other_device">
+		<entry name="default">This setup link was already opened on another phone. Ask for a new one.</entry>
+		<entry name="fr">Ce lien de configuration a déjà été ouvert sur un autre téléphone. Demandez-en un nouveau.</entry>
+		<entry name="de">Dieser Einrichtungslink wurde bereits auf einem anderen Telefon geöffnet. Fordern Sie einen neuen an.</entry>
+		<entry name="es">Este enlace de configuración ya se abrió en otro teléfono. Pide uno nuevo.</entry>
+		<entry name="it">Questo link di configurazione è già stato aperto su un altro telefono. Chiedine uno nuovo.</entry>
+		<entry name="pt">Este link de configuração já foi aberto noutro telemóvel. Peça um novo.</entry>
+	</section>
+
+	<section name="claim_unreachable">
+		<entry name="default">Can't reach {0} right now. Check your connection and try again.</entry>
+		<entry name="fr">Impossible de joindre {0} pour le moment. Vérifiez votre connexion et réessayez.</entry>
+		<entry name="de">{0} ist gerade nicht erreichbar. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.</entry>
+		<entry name="es">No se puede contactar con {0} ahora. Comprueba tu conexión e inténtalo de nuevo.</entry>
+		<entry name="it">Impossibile raggiungere {0} ora. Controlla la connessione e riprova.</entry>
+		<entry name="pt">Não é possível contactar {0} agora. Verifique a ligação e tente novamente.</entry>
+	</section>
+
+	<section name="claim_unreadable">
+		<entry name="default">{0} sent a setup the app can't read.</entry>
+		<entry name="fr">{0} a envoyé une configuration que l'application ne peut pas lire.</entry>
+		<entry name="de">{0} hat eine Einrichtung gesendet, die die App nicht lesen kann.</entry>
+		<entry name="es">{0} envió una configuración que la aplicación no puede leer.</entry>
+		<entry name="it">{0} ha inviato una configurazione che l'app non riesce a leggere.</entry>
+		<entry name="pt">{0} enviou uma configuração que a aplicação não consegue ler.</entry>
+	</section>
+
+	<section name="claim_retry">
+		<entry name="default">Try again</entry>
+		<entry name="fr">Réessayer</entry>
+		<entry name="de">Erneut versuchen</entry>
+		<entry name="es">Reintentar</entry>
+		<entry name="it">Riprova</entry>
+		<entry name="pt">Tentar novamente</entry>
+	</section>
+
 	<section name="webhook_relink_banner">
 		<entry name="default">Your setup link is no longer valid. Tap here and scan your new link.</entry>
 		<entry name="fr">Votre lien de configuration n'est plus valide. Touchez ici et scannez votre nouveau lien.</entry>
