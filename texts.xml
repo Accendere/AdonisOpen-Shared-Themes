@@ -1926,6 +1926,33 @@
 		<entry name="pt">Em pausa</entry>
 	</section>
 
+	<section name="toolbar_calls_toggle_desc_active">
+		<entry name="default">Receiving door calls. Tap to pause.</entry>
+		<entry name="fr">Appels de la porte activés. Touchez pour mettre en pause.</entry>
+		<entry name="de">Türanrufe aktiv. Tippen zum Pausieren.</entry>
+		<entry name="es">Recibiendo llamadas de la puerta. Toca para pausar.</entry>
+		<entry name="it">Ricezione chiamate dalla porta attiva. Tocca per mettere in pausa.</entry>
+		<entry name="pt">A receber chamadas da porta. Toque para pausar.</entry>
+	</section>
+
+	<section name="toolbar_calls_toggle_desc_paused">
+		<entry name="default">Door calls paused. Tap to receive them again.</entry>
+		<entry name="fr">Appels de la porte en pause. Touchez pour les recevoir à nouveau.</entry>
+		<entry name="de">Türanrufe pausiert. Tippen, um sie wieder zu empfangen.</entry>
+		<entry name="es">Llamadas de la puerta en pausa. Toca para volver a recibirlas.</entry>
+		<entry name="it">Chiamate dalla porta in pausa. Tocca per riceverle di nuovo.</entry>
+		<entry name="pt">Chamadas da porta em pausa. Toque para voltar a recebê-las.</entry>
+	</section>
+
+	<section name="webhook_relink_banner">
+		<entry name="default">Your setup link is no longer valid. Tap here and scan your new link.</entry>
+		<entry name="fr">Votre lien de configuration n'est plus valide. Touchez ici et scannez votre nouveau lien.</entry>
+		<entry name="de">Ihr Einrichtungslink ist nicht mehr gültig. Hier tippen und den neuen Link scannen.</entry>
+		<entry name="es">Tu enlace de configuración ya no es válido. Toca aquí y escanea tu nuevo enlace.</entry>
+		<entry name="it">Il tuo link di configurazione non è più valido. Tocca qui e scansiona il nuovo link.</entry>
+		<entry name="pt">O seu link de configuração já não é válido. Toque aqui e leia o novo link.</entry>
+	</section>
+
 	<section name="settings_save_call_videos">
 		<entry name="default">Save video recordings from calls</entry>
 		<entry name="fr">Enregistrer les vidéos des appels</entry>
