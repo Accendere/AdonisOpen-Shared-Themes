@@ -2007,6 +2007,105 @@
 		<entry name="pt">Tentar novamente</entry>
 	</section>
 
+	<section name="assistant_find_site_lan">
+		<entry name="default">Find my site on this Wi-Fi</entry>
+		<entry name="fr">Trouver mon site sur ce Wi-Fi</entry>
+		<entry name="de">Meinen Standort in diesem WLAN finden</entry>
+		<entry name="es">Buscar mi sitio en esta Wi-Fi</entry>
+		<entry name="it">Trova il mio sito su questa Wi-Fi</entry>
+		<entry name="pt">Procurar o meu local nesta rede Wi-Fi</entry>
+	</section>
+
+	<section name="pair_searching">
+		<entry name="default">Looking for your site on this Wi-Fi…</entry>
+		<entry name="fr">Recherche de votre site sur ce Wi-Fi…</entry>
+		<entry name="de">Ihr Standort wird in diesem WLAN gesucht…</entry>
+		<entry name="es">Buscando tu sitio en esta Wi-Fi…</entry>
+		<entry name="it">Ricerca del tuo sito su questa Wi-Fi…</entry>
+		<entry name="pt">A procurar o seu local nesta rede Wi-Fi…</entry>
+	</section>
+
+	<section name="pair_none_found">
+		<entry name="default">No site found on this Wi-Fi. Check that the phone is connected to your building's Wi-Fi, or ask for a setup link.</entry>
+		<entry name="fr">Aucun site trouvé sur ce Wi-Fi. Vérifiez que le téléphone est connecté au Wi-Fi de votre immeuble, ou demandez un lien de configuration.</entry>
+		<entry name="de">In diesem WLAN wurde kein Standort gefunden. Prüfen Sie, ob das Telefon mit dem WLAN Ihres Gebäudes verbunden ist, oder fordern Sie einen Einrichtungslink an.</entry>
+		<entry name="es">No se encontró ningún sitio en esta Wi-Fi. Comprueba que el teléfono está conectado a la Wi-Fi de tu edificio o pide un enlace de configuración.</entry>
+		<entry name="it">Nessun sito trovato su questa Wi-Fi. Controlla che il telefono sia connesso alla Wi-Fi del tuo edificio, oppure chiedi un link di configurazione.</entry>
+		<entry name="pt">Nenhum local encontrado nesta rede Wi-Fi. Verifique se o telemóvel está ligado ao Wi-Fi do seu edifício, ou peça um link de configuração.</entry>
+	</section>
+
+	<section name="pair_found">
+		<entry name="default">Found {0} on this Wi-Fi. Set up the app with it?</entry>
+		<entry name="fr">{0} trouvé sur ce Wi-Fi. Configurer l'application avec ce site ?</entry>
+		<entry name="de">{0} in diesem WLAN gefunden. Die App damit einrichten?</entry>
+		<entry name="es">Se encontró {0} en esta Wi-Fi. ¿Configurar la aplicación con él?</entry>
+		<entry name="it">Trovato {0} su questa Wi-Fi. Configurare l'app con questo sito?</entry>
+		<entry name="pt">Encontrado {0} nesta rede Wi-Fi. Configurar a aplicação com este local?</entry>
+	</section>
+
+	<section name="pair_set_up">
+		<entry name="default">Set up</entry>
+		<entry name="fr">Configurer</entry>
+		<entry name="de">Einrichten</entry>
+		<entry name="es">Configurar</entry>
+		<entry name="it">Configura</entry>
+		<entry name="pt">Configurar</entry>
+	</section>
+
+	<section name="pair_choose_site">
+		<entry name="default">Choose your site</entry>
+		<entry name="fr">Choisissez votre site</entry>
+		<entry name="de">Wählen Sie Ihren Standort</entry>
+		<entry name="es">Elige tu sitio</entry>
+		<entry name="it">Scegli il tuo sito</entry>
+		<entry name="pt">Escolha o seu local</entry>
+	</section>
+
+	<section name="pair_code_message">
+		<entry name="default">Ask your administrator to approve this code, or approve it yourself in Home Assistant:</entry>
+		<entry name="fr">Demandez à votre administrateur d'approuver ce code, ou approuvez-le vous-même dans Home Assistant :</entry>
+		<entry name="de">Bitten Sie Ihren Administrator, diesen Code zu bestätigen, oder bestätigen Sie ihn selbst in Home Assistant:</entry>
+		<entry name="es">Pide a tu administrador que apruebe este código, o apruébalo tú mismo en Home Assistant:</entry>
+		<entry name="it">Chiedi al tuo amministratore di approvare questo codice, oppure approvalo tu stesso in Home Assistant:</entry>
+		<entry name="pt">Peça ao seu administrador para aprovar este código, ou aprove-o no Home Assistant:</entry>
+	</section>
+
+	<section name="pair_waiting">
+		<entry name="default">Waiting for approval…</entry>
+		<entry name="fr">En attente d'approbation…</entry>
+		<entry name="de">Warten auf Bestätigung…</entry>
+		<entry name="es">Esperando la aprobación…</entry>
+		<entry name="it">In attesa di approvazione…</entry>
+		<entry name="pt">A aguardar aprovação…</entry>
+	</section>
+
+	<section name="pair_too_many">
+		<entry name="default">Your site has too many requests waiting right now. Try again in a few minutes.</entry>
+		<entry name="fr">Votre site a trop de demandes en attente pour le moment. Réessayez dans quelques minutes.</entry>
+		<entry name="de">Bei Ihrem Standort warten gerade zu viele Anfragen. Versuchen Sie es in ein paar Minuten erneut.</entry>
+		<entry name="es">Tu sitio tiene demasiadas solicitudes pendientes ahora. Inténtalo de nuevo en unos minutos.</entry>
+		<entry name="it">Il tuo sito ha troppe richieste in attesa al momento. Riprova tra qualche minuto.</entry>
+		<entry name="pt">O seu local tem demasiados pedidos pendentes neste momento. Tente novamente dentro de alguns minutos.</entry>
+	</section>
+
+	<section name="pair_declined">
+		<entry name="default">Your request was declined. Ask your administrator for a setup link.</entry>
+		<entry name="fr">Votre demande a été refusée. Demandez un lien de configuration à votre administrateur.</entry>
+		<entry name="de">Ihre Anfrage wurde abgelehnt. Bitten Sie Ihren Administrator um einen Einrichtungslink.</entry>
+		<entry name="es">Tu solicitud fue rechazada. Pide un enlace de configuración a tu administrador.</entry>
+		<entry name="it">La tua richiesta è stata rifiutata. Chiedi un link di configurazione al tuo amministratore.</entry>
+		<entry name="pt">O seu pedido foi recusado. Peça um link de configuração ao seu administrador.</entry>
+	</section>
+
+	<section name="pair_expired">
+		<entry name="default">The code expired before it was approved. Try again for a new one.</entry>
+		<entry name="fr">Le code a expiré avant d'être approuvé. Réessayez pour en obtenir un nouveau.</entry>
+		<entry name="de">Der Code ist abgelaufen, bevor er bestätigt wurde. Versuchen Sie es erneut, um einen neuen zu erhalten.</entry>
+		<entry name="es">El código caducó antes de ser aprobado. Inténtalo de nuevo para obtener otro.</entry>
+		<entry name="it">Il codice è scaduto prima di essere approvato. Riprova per averne uno nuovo.</entry>
+		<entry name="pt">O código expirou antes de ser aprovado. Tente novamente para obter um novo.</entry>
+	</section>
+
 	<section name="webhook_relink_banner">
 		<entry name="default">Your setup link is no longer valid. Tap here and scan your new link.</entry>
 		<entry name="fr">Votre lien de configuration n'est plus valide. Touchez ici et scannez votre nouveau lien.</entry>
