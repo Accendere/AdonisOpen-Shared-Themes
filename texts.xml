@@ -2262,4 +2262,526 @@
 		<entry name="fr">Échec de l'application de la configuration : {0}</entry>
 	</section>
 
+	<section name="import_title">
+		<entry name="default">Import settings</entry>
+		<entry name="fr">Importer les réglages</entry>
+		<entry name="de">Einstellungen importieren</entry>
+		<entry name="es">Importar ajustes</entry>
+		<entry name="it">Importa impostazioni</entry>
+		<entry name="pt">Importar definições</entry>
+	</section>
+
+	<section name="import_summary_intro">
+		<entry name="default">This will set up the app with:</entry>
+		<entry name="fr">L'application sera configurée avec :</entry>
+		<entry name="de">Die App wird eingerichtet mit:</entry>
+		<entry name="es">La aplicación se configurará con:</entry>
+		<entry name="it">L'app verrà configurata con:</entry>
+		<entry name="pt">A aplicação vai ficar configurada com:</entry>
+	</section>
+
+	<section name="import_nothing_changes">
+		<entry name="default">Everything here is already set up on this phone.</entry>
+		<entry name="fr">Tout ceci est déjà configuré sur ce téléphone.</entry>
+		<entry name="de">Alles hier ist auf diesem Telefon bereits eingerichtet.</entry>
+		<entry name="es">Todo esto ya está configurado en este teléfono.</entry>
+		<entry name="it">Tutto questo è già configurato su questo telefono.</entry>
+		<entry name="pt">Tudo isto já está configurado neste telemóvel.</entry>
+	</section>
+
+	<section name="import_sip_new">
+		<entry name="default">Your account {0}</entry>
+		<entry name="fr">Votre compte {0}</entry>
+		<entry name="de">Ihr Konto {0}</entry>
+		<entry name="es">Su cuenta {0}</entry>
+		<entry name="it">Il tuo account {0}</entry>
+		<entry name="pt">A sua conta {0}</entry>
+	</section>
+
+	<section name="import_sip_unchanged">
+		<entry name="default">Your account {0} (no change)</entry>
+		<entry name="fr">Votre compte {0} (inchangé)</entry>
+		<entry name="de">Ihr Konto {0} (unverändert)</entry>
+		<entry name="es">Su cuenta {0} (sin cambios)</entry>
+		<entry name="it">Il tuo account {0} (invariato)</entry>
+		<entry name="pt">A sua conta {0} (sem alterações)</entry>
+	</section>
+
+	<section name="import_sip_password_changed">
+		<entry name="default">Your account {0}: new password</entry>
+		<entry name="fr">Votre compte {0} : nouveau mot de passe</entry>
+		<entry name="de">Ihr Konto {0}: neues Passwort</entry>
+		<entry name="es">Su cuenta {0}: contraseña nueva</entry>
+		<entry name="it">Il tuo account {0}: nuova password</entry>
+		<entry name="pt">A sua conta {0}: nova palavra-passe</entry>
+	</section>
+
+	<section name="import_sip_changed">
+		<entry name="default">Your account {0}: {1} changed</entry>
+		<entry name="fr">Votre compte {0} : {1} modifié</entry>
+		<entry name="de">Ihr Konto {0}: {1} geändert</entry>
+		<entry name="es">Su cuenta {0}: cambia {1}</entry>
+		<entry name="it">Il tuo account {0}: modificato {1}</entry>
+		<entry name="pt">A sua conta {0}: muda {1}</entry>
+	</section>
+
+	<section name="import_sip_replaces">
+		<entry name="default">Account {0}, replacing {1}</entry>
+		<entry name="fr">Compte {0}, à la place de {1}</entry>
+		<entry name="de">Konto {0}, ersetzt {1}</entry>
+		<entry name="es">Cuenta {0}, en lugar de {1}</entry>
+		<entry name="it">Account {0}, al posto di {1}</entry>
+		<entry name="pt">Conta {0}, em vez de {1}</entry>
+	</section>
+
+	<section name="import_doors_summary">
+		<entry name="default">Doors: {0}</entry>
+		<entry name="fr">Portes : {0}</entry>
+		<entry name="de">Türen: {0}</entry>
+		<entry name="es">Puertas: {0}</entry>
+		<entry name="it">Porte: {0}</entry>
+		<entry name="pt">Portas: {0}</entry>
+	</section>
+
+	<section name="import_doors_new">
+		<entry name="default">{0} new</entry>
+		<entry name="fr">{0} nouvelle(s)</entry>
+		<entry name="de">{0} neu</entry>
+		<entry name="es">{0} nueva(s)</entry>
+		<entry name="it">{0} nuova/e</entry>
+		<entry name="pt">{0} nova(s)</entry>
+	</section>
+
+	<section name="import_doors_updated">
+		<entry name="default">{0} updated</entry>
+		<entry name="fr">{0} mise(s) à jour</entry>
+		<entry name="de">{0} aktualisiert</entry>
+		<entry name="es">{0} actualizada(s)</entry>
+		<entry name="it">{0} aggiornata/e</entry>
+		<entry name="pt">{0} atualizada(s)</entry>
+	</section>
+
+	<section name="import_doors_unchanged">
+		<entry name="default">{0} unchanged</entry>
+		<entry name="fr">{0} inchangée(s)</entry>
+		<entry name="de">{0} unverändert</entry>
+		<entry name="es">{0} sin cambios</entry>
+		<entry name="it">{0} invariata/e</entry>
+		<entry name="pt">{0} sem alterações</entry>
+	</section>
+
+	<section name="import_webhook_summary">
+		<entry name="default">Reports to {0} ({1} kinds of event)</entry>
+		<entry name="fr">Rapports vers {0} ({1} types d'événement)</entry>
+		<entry name="de">Meldungen an {0} ({1} Ereignisarten)</entry>
+		<entry name="es">Avisos a {0} ({1} tipos de evento)</entry>
+		<entry name="it">Notifiche a {0} ({1} tipi di evento)</entry>
+		<entry name="pt">Avisos para {0} ({1} tipos de evento)</entry>
+	</section>
+
+	<section name="import_webhook_unchanged">
+		<entry name="default">Reports to {0} (no change)</entry>
+		<entry name="fr">Rapports vers {0} (inchangé)</entry>
+		<entry name="de">Meldungen an {0} (unverändert)</entry>
+		<entry name="es">Avisos a {0} (sin cambios)</entry>
+		<entry name="it">Notifiche a {0} (invariato)</entry>
+		<entry name="pt">Avisos para {0} (sem alterações)</entry>
+	</section>
+
+	<section name="import_webhook_removed">
+		<entry name="default">Stop sending reports to the site</entry>
+		<entry name="fr">Ne plus envoyer de rapports au site</entry>
+		<entry name="de">Keine Meldungen mehr an den Standort senden</entry>
+		<entry name="es">Dejar de enviar avisos al sitio</entry>
+		<entry name="it">Non inviare più notifiche al sito</entry>
+		<entry name="pt">Deixar de enviar avisos ao local</entry>
+	</section>
+
+	<section name="import_remote_summary">
+		<entry name="default">Remote provisioning from {0}</entry>
+		<entry name="fr">Configuration à distance depuis {0}</entry>
+		<entry name="de">Fernkonfiguration von {0}</entry>
+		<entry name="es">Aprovisionamiento remoto desde {0}</entry>
+		<entry name="it">Configurazione remota da {0}</entry>
+		<entry name="pt">Configuração remota a partir de {0}</entry>
+	</section>
+
+	<section name="import_show_details">
+		<entry name="default">Show details and choose</entry>
+		<entry name="fr">Voir le détail et choisir</entry>
+		<entry name="de">Details anzeigen und auswählen</entry>
+		<entry name="es">Ver detalles y elegir</entry>
+		<entry name="it">Mostra dettagli e scegli</entry>
+		<entry name="pt">Ver detalhes e escolher</entry>
+	</section>
+
+	<section name="import_hide_details">
+		<entry name="default">Hide details</entry>
+		<entry name="fr">Masquer le détail</entry>
+		<entry name="de">Details ausblenden</entry>
+		<entry name="es">Ocultar detalles</entry>
+		<entry name="it">Nascondi dettagli</entry>
+		<entry name="pt">Ocultar detalhes</entry>
+	</section>
+
+	<section name="import_section_account">
+		<entry name="default">SIP account</entry>
+		<entry name="fr">Compte SIP</entry>
+		<entry name="de">SIP-Konto</entry>
+		<entry name="es">Cuenta SIP</entry>
+		<entry name="it">Account SIP</entry>
+		<entry name="pt">Conta SIP</entry>
+	</section>
+
+	<section name="import_section_doors">
+		<entry name="default">Doors</entry>
+		<entry name="fr">Portes</entry>
+		<entry name="de">Türen</entry>
+		<entry name="es">Puertas</entry>
+		<entry name="it">Porte</entry>
+		<entry name="pt">Portas</entry>
+	</section>
+
+	<section name="import_section_webhook">
+		<entry name="default">Reports to the site</entry>
+		<entry name="fr">Rapports au site</entry>
+		<entry name="de">Meldungen an den Standort</entry>
+		<entry name="es">Avisos al sitio</entry>
+		<entry name="it">Notifiche al sito</entry>
+		<entry name="pt">Avisos ao local</entry>
+	</section>
+
+	<section name="import_section_remote">
+		<entry name="default">Remote provisioning</entry>
+		<entry name="fr">Configuration à distance</entry>
+		<entry name="de">Fernkonfiguration</entry>
+		<entry name="es">Aprovisionamiento remoto</entry>
+		<entry name="it">Configurazione remota</entry>
+		<entry name="pt">Configuração remota</entry>
+	</section>
+
+	<section name="import_transport">
+		<entry name="default">Transport: {0}</entry>
+		<entry name="fr">Transport : {0}</entry>
+		<entry name="de">Transport: {0}</entry>
+		<entry name="es">Transporte: {0}</entry>
+		<entry name="it">Trasporto: {0}</entry>
+		<entry name="pt">Transporte: {0}</entry>
+	</section>
+
+	<section name="import_proxy">
+		<entry name="default">Via {0}</entry>
+		<entry name="fr">Via {0}</entry>
+		<entry name="de">Über {0}</entry>
+		<entry name="es">Vía {0}</entry>
+		<entry name="it">Tramite {0}</entry>
+		<entry name="pt">Via {0}</entry>
+	</section>
+
+	<section name="import_replaces_account">
+		<entry name="default">Replaces the account {0}</entry>
+		<entry name="fr">Remplace le compte {0}</entry>
+		<entry name="de">Ersetzt das Konto {0}</entry>
+		<entry name="es">Sustituye la cuenta {0}</entry>
+		<entry name="it">Sostituisce l'account {0}</entry>
+		<entry name="pt">Substitui a conta {0}</entry>
+	</section>
+
+	<section name="import_door_alternative">
+		<entry name="default">Local address: {0}</entry>
+		<entry name="fr">Adresse locale : {0}</entry>
+		<entry name="de">Lokale Adresse: {0}</entry>
+		<entry name="es">Dirección local: {0}</entry>
+		<entry name="it">Indirizzo locale: {0}</entry>
+		<entry name="pt">Endereço local: {0}</entry>
+	</section>
+
+	<section name="import_door_replaces">
+		<entry name="default">Replaces '{0}'</entry>
+		<entry name="fr">Remplace « {0} »</entry>
+		<entry name="de">Ersetzt „{0}“</entry>
+		<entry name="es">Sustituye «{0}»</entry>
+		<entry name="it">Sostituisce «{0}»</entry>
+		<entry name="pt">Substitui «{0}»</entry>
+	</section>
+
+	<section name="import_badge_new">
+		<entry name="default">New</entry>
+		<entry name="fr">Nouveau</entry>
+		<entry name="de">Neu</entry>
+		<entry name="es">Nuevo</entry>
+		<entry name="it">Nuovo</entry>
+		<entry name="pt">Novo</entry>
+	</section>
+
+	<section name="import_badge_unchanged">
+		<entry name="default">Already on this phone, no change</entry>
+		<entry name="fr">Déjà sur ce téléphone, inchangé</entry>
+		<entry name="de">Schon auf diesem Telefon, unverändert</entry>
+		<entry name="es">Ya está en este teléfono, sin cambios</entry>
+		<entry name="it">Già su questo telefono, invariato</entry>
+		<entry name="pt">Já está neste telemóvel, sem alterações</entry>
+	</section>
+
+	<section name="import_badge_changed">
+		<entry name="default">Changes: {0}</entry>
+		<entry name="fr">Modifie : {0}</entry>
+		<entry name="de">Ändert: {0}</entry>
+		<entry name="es">Cambia: {0}</entry>
+		<entry name="it">Modifica: {0}</entry>
+		<entry name="pt">Altera: {0}</entry>
+	</section>
+
+	<section name="import_webhook_domain">
+		<entry name="default">Sent to {0}</entry>
+		<entry name="fr">Envoyés à {0}</entry>
+		<entry name="de">Gesendet an {0}</entry>
+		<entry name="es">Enviados a {0}</entry>
+		<entry name="it">Inviati a {0}</entry>
+		<entry name="pt">Enviados para {0}</entry>
+	</section>
+
+	<section name="import_webhook_auth_token">
+		<entry name="default">With your personal token</entry>
+		<entry name="fr">Avec votre jeton personnel</entry>
+		<entry name="de">Mit Ihrem persönlichen Token</entry>
+		<entry name="es">Con su token personal</entry>
+		<entry name="it">Con il tuo token personale</entry>
+		<entry name="pt">Com o seu token pessoal</entry>
+	</section>
+
+	<section name="import_webhook_auth_none">
+		<entry name="default">Without authentication</entry>
+		<entry name="fr">Sans authentification</entry>
+		<entry name="de">Ohne Authentifizierung</entry>
+		<entry name="es">Sin autenticación</entry>
+		<entry name="it">Senza autenticazione</entry>
+		<entry name="pt">Sem autenticação</entry>
+	</section>
+
+	<section name="import_webhook_poll_always">
+		<entry name="default">Checks for messages every {0} s, also in the background</entry>
+		<entry name="fr">Vérifie les messages toutes les {0} s, aussi en arrière-plan</entry>
+		<entry name="de">Prüft alle {0} s auf Nachrichten, auch im Hintergrund</entry>
+		<entry name="es">Busca mensajes cada {0} s, también en segundo plano</entry>
+		<entry name="it">Controlla i messaggi ogni {0} s, anche in background</entry>
+		<entry name="pt">Procura mensagens a cada {0} s, também em segundo plano</entry>
+	</section>
+
+	<section name="import_webhook_poll_foreground">
+		<entry name="default">Checks for messages every {0} s while the app is open</entry>
+		<entry name="fr">Vérifie les messages toutes les {0} s quand l'application est ouverte</entry>
+		<entry name="de">Prüft alle {0} s auf Nachrichten, solange die App offen ist</entry>
+		<entry name="es">Busca mensajes cada {0} s con la aplicación abierta</entry>
+		<entry name="it">Controlla i messaggi ogni {0} s con l'app aperta</entry>
+		<entry name="pt">Procura mensagens a cada {0} s com a aplicação aberta</entry>
+	</section>
+
+	<section name="import_webhook_poll_never">
+		<entry name="default">Doesn't check for messages</entry>
+		<entry name="fr">Ne vérifie pas les messages</entry>
+		<entry name="de">Prüft nicht auf Nachrichten</entry>
+		<entry name="es">No busca mensajes</entry>
+		<entry name="it">Non controlla i messaggi</entry>
+		<entry name="pt">Não procura mensagens</entry>
+	</section>
+
+	<section name="import_remote_insecure">
+		<entry name="default">Not encrypted (http)</entry>
+		<entry name="fr">Non chiffré (http)</entry>
+		<entry name="de">Unverschlüsselt (http)</entry>
+		<entry name="es">Sin cifrar (http)</entry>
+		<entry name="it">Non cifrato (http)</entry>
+		<entry name="pt">Sem encriptação (http)</entry>
+	</section>
+
+	<section name="import_apply">
+		<entry name="default">Apply</entry>
+		<entry name="fr">Appliquer</entry>
+		<entry name="de">Übernehmen</entry>
+		<entry name="es">Aplicar</entry>
+		<entry name="it">Applica</entry>
+		<entry name="pt">Aplicar</entry>
+	</section>
+
+	<section name="import_field_username">
+		<entry name="default">user name</entry>
+		<entry name="fr">nom d'utilisateur</entry>
+		<entry name="de">Benutzername</entry>
+		<entry name="es">usuario</entry>
+		<entry name="it">nome utente</entry>
+		<entry name="pt">utilizador</entry>
+	</section>
+
+	<section name="import_field_domain">
+		<entry name="default">domain</entry>
+		<entry name="fr">domaine</entry>
+		<entry name="de">Domäne</entry>
+		<entry name="es">dominio</entry>
+		<entry name="it">dominio</entry>
+		<entry name="pt">domínio</entry>
+	</section>
+
+	<section name="import_field_proxy">
+		<entry name="default">proxy</entry>
+		<entry name="fr">proxy</entry>
+		<entry name="de">Proxy</entry>
+		<entry name="es">proxy</entry>
+		<entry name="it">proxy</entry>
+		<entry name="pt">proxy</entry>
+	</section>
+
+	<section name="import_field_transport">
+		<entry name="default">transport</entry>
+		<entry name="fr">transport</entry>
+		<entry name="de">Transport</entry>
+		<entry name="es">transporte</entry>
+		<entry name="it">trasporto</entry>
+		<entry name="pt">transporte</entry>
+	</section>
+
+	<section name="import_field_password">
+		<entry name="default">password</entry>
+		<entry name="fr">mot de passe</entry>
+		<entry name="de">Passwort</entry>
+		<entry name="es">contraseña</entry>
+		<entry name="it">password</entry>
+		<entry name="pt">palavra-passe</entry>
+	</section>
+
+	<section name="import_field_name">
+		<entry name="default">name</entry>
+		<entry name="fr">nom</entry>
+		<entry name="de">Name</entry>
+		<entry name="es">nombre</entry>
+		<entry name="it">nome</entry>
+		<entry name="pt">nome</entry>
+	</section>
+
+	<section name="import_field_address">
+		<entry name="default">address</entry>
+		<entry name="fr">adresse</entry>
+		<entry name="de">Adresse</entry>
+		<entry name="es">dirección</entry>
+		<entry name="it">indirizzo</entry>
+		<entry name="pt">endereço</entry>
+	</section>
+
+	<section name="import_field_alternative_address">
+		<entry name="default">local address</entry>
+		<entry name="fr">adresse locale</entry>
+		<entry name="de">lokale Adresse</entry>
+		<entry name="es">dirección local</entry>
+		<entry name="it">indirizzo locale</entry>
+		<entry name="pt">endereço local</entry>
+	</section>
+
+	<section name="import_field_method">
+		<entry name="default">action method</entry>
+		<entry name="fr">méthode des actions</entry>
+		<entry name="de">Aktionsmethode</entry>
+		<entry name="es">método de las acciones</entry>
+		<entry name="it">metodo delle azioni</entry>
+		<entry name="pt">método das ações</entry>
+	</section>
+
+	<section name="import_field_actions">
+		<entry name="default">buttons</entry>
+		<entry name="fr">boutons</entry>
+		<entry name="de">Tasten</entry>
+		<entry name="es">botones</entry>
+		<entry name="it">pulsanti</entry>
+		<entry name="pt">botões</entry>
+	</section>
+
+	<section name="import_field_url">
+		<entry name="default">address</entry>
+		<entry name="fr">adresse</entry>
+		<entry name="de">Adresse</entry>
+		<entry name="es">dirección</entry>
+		<entry name="it">indirizzo</entry>
+		<entry name="pt">endereço</entry>
+	</section>
+
+	<section name="import_field_user">
+		<entry name="default">user</entry>
+		<entry name="fr">utilisateur</entry>
+		<entry name="de">Benutzer</entry>
+		<entry name="es">usuario</entry>
+		<entry name="it">utente</entry>
+		<entry name="pt">utilizador</entry>
+	</section>
+
+	<section name="import_field_token">
+		<entry name="default">token</entry>
+		<entry name="fr">jeton</entry>
+		<entry name="de">Token</entry>
+		<entry name="es">token</entry>
+		<entry name="it">token</entry>
+		<entry name="pt">token</entry>
+	</section>
+
+	<section name="import_field_auth">
+		<entry name="default">authentication</entry>
+		<entry name="fr">authentification</entry>
+		<entry name="de">Authentifizierung</entry>
+		<entry name="es">autenticación</entry>
+		<entry name="it">autenticazione</entry>
+		<entry name="pt">autenticação</entry>
+	</section>
+
+	<section name="import_field_events">
+		<entry name="default">events</entry>
+		<entry name="fr">événements</entry>
+		<entry name="de">Ereignisse</entry>
+		<entry name="es">eventos</entry>
+		<entry name="it">eventi</entry>
+		<entry name="pt">eventos</entry>
+	</section>
+
+	<section name="import_field_polling">
+		<entry name="default">message checks</entry>
+		<entry name="fr">vérification des messages</entry>
+		<entry name="de">Nachrichtenabruf</entry>
+		<entry name="es">búsqueda de mensajes</entry>
+		<entry name="it">controllo messaggi</entry>
+		<entry name="pt">procura de mensagens</entry>
+	</section>
+
+	<section name="pair_open_home_assistant">
+		<entry name="default">Approve in Home Assistant</entry>
+		<entry name="fr">Approuver dans Home Assistant</entry>
+		<entry name="de">In Home Assistant bestätigen</entry>
+		<entry name="es">Aprobar en Home Assistant</entry>
+		<entry name="it">Approva in Home Assistant</entry>
+		<entry name="pt">Aprovar no Home Assistant</entry>
+	</section>
+
+	<section name="site_updates_channel_name">
+		<entry name="default">Site settings</entry>
+		<entry name="fr">Réglages du site</entry>
+		<entry name="de">Standort-Einstellungen</entry>
+		<entry name="es">Ajustes del sitio</entry>
+		<entry name="it">Impostazioni del sito</entry>
+		<entry name="pt">Definições do local</entry>
+	</section>
+
+	<section name="site_updates_title">
+		<entry name="default">{0} has new settings</entry>
+		<entry name="fr">{0} a de nouveaux réglages</entry>
+		<entry name="de">{0} hat neue Einstellungen</entry>
+		<entry name="es">{0} tiene ajustes nuevos</entry>
+		<entry name="it">{0} ha nuove impostazioni</entry>
+		<entry name="pt">{0} tem novas definições</entry>
+	</section>
+
+	<section name="site_updates_text">
+		<entry name="default">Tap to review and apply them</entry>
+		<entry name="fr">Touchez pour les vérifier et les appliquer</entry>
+		<entry name="de">Tippen, um sie zu prüfen und zu übernehmen</entry>
+		<entry name="es">Toque para revisarlos y aplicarlos</entry>
+		<entry name="it">Tocca per controllarle e applicarle</entry>
+		<entry name="pt">Toque para as rever e aplicar</entry>
+	</section>
+
 </config>
