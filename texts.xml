@@ -182,38 +182,6 @@
 		<entry name="bg">Профил</entry>
 	</section>
 
-	<section name="menu_settings">
-		<entry name="default">Settings</entry>
-		<entry name="fr">Réglages</entry>
-		<entry name="pl">Ustawienia</entry>
-		<entry name="de">Einstellungen</entry>
-		<entry name="bg">Настройки</entry>
-	</section>
-
-	<section name="menu_about">
-		<entry name="default">About</entry>
-		<entry name="fr">À propos</entry>
-		<entry name="pl">O nas</entry>
-		<entry name="de">Über</entry>
-		<entry name="bg">Относно</entry>
-	</section>
-
-	<section name="menu_disconnect">
-		<entry name="default">Disconnect account</entry>
-		<entry name="fr">Déconnexion du compte</entry>
-		<entry name="pl">Rozłącz konto</entry>
-		<entry name="de">Konto trennen</entry>
-		<entry name="bg">Излизане от профила</entry>
-	</section>
-		
-	<section name="disconnect_confirm_message">
-		<entry name="default">Would you like to disconnect your account?</entry>
-		<entry name="fr">Voulez-vous déconnecter votre compte ?</entry>
-		<entry name="pl">Czy chcesz rozłączyć swoje konto?</entry>
-		<entry name="de">Möchten Sie die Verbindung zu Ihrem Konto trennen?</entry>
-		<entry name="bg">Желаете ли да излезете от профила си?</entry>
-	</section>
-		
 	<!--  Assistant  -->
 	
 	<section name="assistant_welcome_title">
@@ -232,22 +200,6 @@
 		<entry name="bg">Този асистент ще ви помогне да настроите профила си.</entry>
 	</section>
 
-	<section name="assistant_create_linhome_account">
-		<entry name="default">Create a {appname} account</entry>
-		<entry name="fr">Créer un compte {appname}</entry>
-		<entry name="pl">Utwórz konto {appname}</entry>
-		<entry name="de">Erstelle ein {appname} Konto</entry>
-		<entry name="bg">Създайте {appname} профил</entry>
-	</section>
-
-	<section name="assistant_use_linhome_account">
-		<entry name="default">Use a {appname} account</entry>
-		<entry name="fr">Utiliser un compte {appname}</entry>
-		<entry name="pl">Użyj konta {appname}</entry>
-		<entry name="de">Benutze ein {appname} Konto</entry>
-		<entry name="bg">Използвайте {appname} профил</entry>
-	</section>
-
 	<section name="assistant_use_sip_account">
 		<entry name="default">Use your SIP account</entry>
 		<entry name="fr">Utiliser votre compte SIP</entry>
@@ -256,65 +208,9 @@
 		<entry name="bg">Използвайте собствен SIP профил</entry>
 	</section>
 
-	<section name="assistant_remote_prov">
-		<entry name="default">Remote configuration</entry>
-		<entry name="fr">Configuration distante</entry>
-		<entry name="pl">Zdalna konfiguracja</entry>
-		<entry name="de">Fern-Konfiguration</entry>
-		<entry name="bg">Отдалечена настройка</entry>
-	</section>
 
-	<section name="assistant_remote_url">
-		<entry name="default">From a URL</entry>
-		<entry name="fr">Depuis une URL</entry>
-		<entry name="pl">Z adresu URL</entry>
-		<entry name="de">Von der URL</entry>
-		<entry name="bg">От URL</entry>
-	</section>
-	
-	<section name="assistant_remote_prov_from_url">
-		<entry name="default">Remote configuration from a URL</entry>
-		<entry name="fr">Configuration distante depuis une URL</entry>
-		<entry name="pl">Zdalna konfiguracja z adresu URL</entry>
-		<entry name="de">Fern-Konfiguration von der URL</entry>
-		<entry name="bg">Отдалечена настройка от URL</entry>
-	</section>
-
-
-	<section name="assistant_remote_prov_infobubble">
-		<entry name="default">Automatically configure the app by downloading the configuration file that you have generated. The file must follow Linhome's format. More info at https://www.wiki.linphone.org.</entry>
-		<entry name="fr">Configurez automatiquement l'application en téléchargeant le fichier de configuration que vous avez généré. Ce fichier doit suivre le format spécifique Linhome. Plus d'infos sur https://wiki.linphone.org.</entry>
-		<entry name="pl">Automatycznie skonfiguruj aplikację, pobierając wygenerowany plik konfiguracyjny. Plik musi być zgodny z formatem Linhome. Więcej informacji na https://www.wiki.linphone.org.</entry>
-		<entry name="de">Konfigurieren Sie die App automatisch, indem Sie die von Ihnen generierte Konfigurationsdatei herunterladen. Die Datei muss dem Linhome-Format folgen. Mehr Informationen unter https://www.wiki.linphone.org.</entry>
-		<entry name="bg">Настройте приложението автоматично, като изтеглите генерирания от вас конфигурационен файл. Файлът трябва да следва формата на Linhome. Повече информация на https://www.wiki.linphone.org.</entry>
-	</section>
-	
-	
-	<section name="assistant_remote_prov_from_qr_infobubble">
-		<entry name="default">Flash the QR code that you generated to download the app configuration from your remote configuration server.</entry>
-		<entry name="fr">Flashez le QR Code que vous avez généré pour télécharger la configuration de l'app depuis votre serveur de configuration distante.</entry>
-		<entry name="pl">Zapisz wygenerowany kod QR, aby pobrać konfigurację aplikacji ze zdalnego serwera.</entry>
-		<entry name="de">Flashen Sie den QR-Code, den Sie generiert haben, um die App-Konfiguration von Ihrem Remote-Konfigurationsserver herunterzuladen.</entry>
-		<entry name="bg">Запишете генерирания от вас QR код, за да изтеглите настройките на приложението от вашия конфигурационен сървър.</entry>
-	</section>
 	
 
-	<section name="remote_configuration_success">
-		<entry name="default">Remote configuration successfully applied</entry>
-		<entry name="fr">La configuration a été effectuée avec succès</entry>
-		<entry name="pl">Konfiguracja zdalna została pomyślnie zastosowana</entry>
-		<entry name="de">Fern-Konfiguration erfolgreich angewendet</entry>
-		<entry name="bg">Отдалечената настройка беше успешно приложена</entry>
-	</section>
-	
-	<section name="remote_configuration_failed">
-		<entry name="default">Remote configuration failed</entry>
-		<entry name="fr">La configuration a échoué</entry>
-		<entry name="pl">Konfiguracja zdalna nie powiodła się</entry>
-		<entry name="de">Fern-Konfiguration fehlgeschlagen</entry>
-		<entry name="bg">Отдалечената настройка не беше успешна</entry>
-	</section>
-	
 	<section name="remote_configuration_skipped">
 		<entry name="default">Remote configuration skipped</entry>
 		<entry name="pl">Pominięto konfigurację zdalną</entry>
@@ -330,30 +226,6 @@
 		<entry name="bg">URL</entry>
 	</section>
 	
-	<section name="assistant_remote_qr">
-		<entry name="default">From a QR code</entry>
-		<entry name="fr">Via un QR Code</entry>
-		<entry name="pl">Z kodu QR</entry>
-		<entry name="de">Von einem QR Code</entry>
-		<entry name="bg">От QR код</entry>
-	</section>
-	
-	<section name="assistant_remote_from_qr">
-		<entry name="default">Remote configuration from a QR code</entry>
-		<entry name="fr">Configuration distante via un QR Code</entry>
-		<entry name="pl">Zdalna konfiguracja z kodu QR</entry>
-		<entry name="de">Fern-Konfiguration von einem QR Code</entry>
-		<entry name="bg">Отдалечена настройка от QR код</entry>
-	</section>
-	
-	<section name="assistant_remote_from_qr_desc">
-		<entry name="default">Please scan the QR code that you generated.</entry>
-		<entry name="fr">Scannez le QR code que vous avez généré.</entry>
-		<entry name="pl">Zeskanuj wygenerowany kod QR.</entry>
-		<entry name="de">Bitte scannen Sie den QR Code ein, den Sie generiert haben.</entry>
-		<entry name="bg">Моля, сканирайте генерирания QR код.</entry>
-	</section>
-
 	
 	<section name="assistant_using_will_disconnect_title">
 		<entry name="default">Existing account</entry>
@@ -379,14 +251,6 @@
 		<entry name="bg">Потребителско име</entry>
 	</section>
 
-	<section name="email">
-		<entry name="default">E-mail</entry>
-		<entry name="fr">E-Mail</entry>
-		<entry name="pl">E-mail</entry>
-		<entry name="de">E-Mail</entry>
-		<entry name="bg">Имейл</entry>
-	</section>
-
 	<section name="password">
 		<entry name="default">Password</entry>
 		<entry name="fr">Mot de passe</entry>
@@ -395,22 +259,6 @@
 		<entry name="bg">Парола</entry>
 	</section>
 
-	<section name="password_confirmation">
-		<entry name="default">Password confirmation</entry>
-		<entry name="fr">Confirmation du mot de passe</entry>
-		<entry name="pl">Potwierdź hasło</entry>
-		<entry name="de">Passwort wiederholen</entry>
-		<entry name="bg">Потвърждаване на паролата</entry>
-	</section>
-
-	<section name="create_account">
-		<entry name="default">Create account</entry>
-		<entry name="fr">Créer le compte</entry>
-		<entry name="pl">Utwórz konto</entry>
-		<entry name="de">Konto erstellen</entry>
-		<entry name="bg">Създайте профил</entry>
-	</section>
-	
 	<section name="login">
 		<entry name="default">Login</entry>
 		<entry name="fr">Se connecter</entry>
@@ -587,30 +435,6 @@
 		<entry name="bg">Паролите не съвпадат</entry>
 	</section>
 
-	<section name="linhome_account_username_already_exists">
-		<entry name="default">This username is already in use</entry>
-		<entry name="fr">Ce nom d’utilisateur est déjà utilisé</entry>
-		<entry name="pl">Nazwa użytkownika jest zajęta</entry>
-		<entry name="de">Dieser Benutzername wird bereits genutzt</entry>
-		<entry name="bg">Потребителското име е заето</entry>
-	</section>
-		
-	<section name="linhome_account_loggedin">
-		<entry name="default">{appname} account connected</entry>
-		<entry name="fr">Compte {appname} connecté</entry>
-		<entry name="pl">Połączono konto {appname}</entry>
-		<entry name="de">{appname} Konto verbunden</entry>
-		<entry name="bg">Профила на {appname} е свързан</entry>
-	</section>
-	
-	<section name="linhome_account_login_failed_unknown_user_or_wroong_password">
-		<entry name="default">Unknown username or incorrect password</entry>
-		<entry name="fr">Utilisateur inconnu ou mot de passe incorrect</entry>
-		<entry name="pl">Nieznana nazwa użytkownika lub nieprawidłowe hasło</entry>
-		<entry name="de">Unbekannter Benutzername oder falsches Passwort</entry>
-		<entry name="bg">Неизвестно потребителско име или неправилна парола</entry>
-	</section>
-		
 	<section name="sip_account_created">
 		<entry name="default">SIP account configured</entry>
 		<entry name="fr">Compte SIP configuré</entry>
@@ -676,27 +500,7 @@
 		<entry name="bg">Прокси URI (по желание)</entry>
 	</section>
 	
-	<section name="account_creator_token_requests_failed_too_many">
-		<entry name="default">Too many creation token requests. Try again later</entry>
-		<entry name="fr">Nombre de requêtes de "token" trop importantes. Réessayer plus tard.</entry>
-		<entry name="bg">Твърде много заявки за създаване на ключ. Опитайте отново по-късно.</entry>
-	</section>
-	
-	<section name="account_creator_token_requests_failed_generic">
-		<entry name="default">Failed getting a token. Try again later</entry>
-		<entry name="fr">Token de création non reçu. Réessayer plus tard.</entry>
-		<entry name="bg">Получаването на ключ не бе успешно. Опитайте отново по-късно.</entry>
-	</section>
-	
 	<!-- permissions -->
-	
-	<section name="camera_permission_denied_dont_ask_again">
-		<entry name="default">Camera permission is required for {appname}.</entry>
-		<entry name="fr">Vous devez autoriser l'utilisation de l'appareil photo dans {appname}.</entry>
-		<entry name="pl">{Appname} wymaga pozwolenia na aparat.</entry>
-		<entry name="de">Die Kameraberechtigung ist für {appname} erforderlich.</entry>
-		<entry name="bg">Необходимо е разрешение за достъп до камерата за {appname}.</entry>
-	</section>
 	
 	<section name="camera_permission_denied">
 		<entry name="default">Camera permission is required for QR code scanning.</entry>
@@ -767,22 +571,6 @@
 		
 	<!-- Account -->
 	
-	<section name="delete_account">
-		<entry name="default">Delete account</entry>
-		<entry name="fr">Supprimer le compte</entry>
-		<entry name="pl">Usuń konto</entry>
-		<entry name="de">Konto löschen</entry>
-		<entry name="bg">Изтриване на профил</entry>
-	</section>
-	
-	<section name="change_password">
-		<entry name="default">Change password</entry>
-		<entry name="fr">Modifier le mot de passe</entry>
-		<entry name="pl">Zmień hasło</entry>
-		<entry name="de">Passwort ändern</entry>
-		<entry name="bg">Промяна на парола</entry>
-	</section>
-	
 	<section name="no_account_configured">
 		<entry name="default">No account configured.\nConfigure one via the account assistant.</entry>
 		<entry name="fr">Aucun compte configuré.\nConfigurez-en un via l'assistant de compte.</entry>
@@ -797,38 +585,6 @@
 		<entry name="pl">Konto: {0} \nPołączenie SIP: {1}</entry>
 		<entry name="de">Konto: {0} \nSIP Verbindung: {1}</entry>
 		<entry name="bg">Профил: {0} \nSIP връзка: {1}</entry>
-	</section>
-	
-	<section name="push_account_info">
-		<entry name="default">Push Account: {0} \n {1}</entry>
-		<entry name="fr">Compte de notifications push: {0} \n {1}</entry>
-		<entry name="pl">Konto PUSH: {0} \n {1}</entry>
-		<entry name="de">Push-Benachrichtigungskonto: {0} \n {1}</entry>
-		<entry name="bg">Пуш профил: {0} \n {1}</entry>
-	</section>
-	
-	<section name="refresh_registers">
-		<entry name="default">Refresh connection</entry>
-		<entry name="fr">Mettre à jour la connection</entry>
-		<entry name="pl">Odśwież połączenie</entry>
-		<entry name="de">Verbindung wiederherstellen</entry>
-		<entry name="bg">Презареждане на връзката</entry>
-	</section>
-	
-	<section name="account_manage_on_freesip_title">
-		<entry name="default">{appname} account management</entry>
-		<entry name="fr">Gestion du compte {appname}</entry>
-		<entry name="pl">Zarządzanie kontem {appname}</entry>
-		<entry name="de">{appname} Konto Management</entry>
-		<entry name="bg">{appname} управление на профил</entry>
-	</section>
-	
-	<section name="account_manage_on_freesip_message">
-		<entry name="default">{appname} accounts can be managed via Linhome's online SIP service. If you change your password or delete your account via the web platform, you will need to disconnect and reconnect your account inside the app to update your credentials.</entry>
-		<entry name="fr">La gestion du compte {appname} s'effectue via le service SIP en ligne de Linhome. Si vous modifiez votre de passe ou supprimez votre compte depuis la plateforme web, vous devrez déconnecter puis reconnecter votre compte depuis l'app pour mettre à jour vos identifiants.</entry>
-		<entry name="pl">Kontami {appname} można zarządzać za pośrednictwem internetowej usługi SIP firmy Linhome. Jeśli zmienisz hasło lub usuniesz konto za pośrednictwem platformy internetowej, będziesz musiał rozłączyć i ponownie połączyć swoje konto w aplikacji, aby zaktualizować swoje poświadczenia.</entry>
-		<entry name="de">Konten von {appname} können über den Online-SIP-Dienst von Linhome verwaltet werden. Wenn Sie Ihr Kennwort ändern oder Ihr Konto über die Webplattform löschen, müssen Sie die Verbindung zu Ihrem Konto innerhalb der App trennen und erneut verbinden, um Ihre Anmeldeinformationen zu aktualisieren.</entry>
-		<entry name="bg">Профилите в {appname} могат да се управляват чрез онлайн SIP услугата на Linhome. Ако промените паролата си или изтриете профила си чрез уеб платформата, ще трябва да прекъснете връзката с профила си в приложението и да го свържете отново, за да обновите данните си.</entry>
 	</section>
 	
 	<!-- Registration states -->
@@ -1416,14 +1172,6 @@
 		<entry name="bg">Не</entry>
 	</section>
 	
-	<section name="apply">
-		<entry name="default">Apply</entry>
-		<entry name="fr">Appliquer</entry>
-		<entry name="pl">Zastosuj</entry>
-		<entry name="de">Anwenden</entry>
-		<entry name="bg">Приложи</entry>
-	</section>
-
 	<section name="generic_dialog_error_title">
 		<entry name="default">Error</entry>
 		<entry name="fr">Erreur</entry>
@@ -1723,22 +1471,6 @@
 		<entry name="bg">Поддържа приложението активно, за да получавате повиквания, когато push известията не са налични.</entry>
 	</section>
 
-	<section name="linhome_account_created">
-		<entry name="default">Your {appname} account {0} has been created and activated.</entry>
-		<entry name="fr">Votre compte {appname} {0} a été créé et activé.</entry>
-		<entry name="pl">Twoje konto {appname} {0} zostało utworzone i aktywowane.</entry>
-		<entry name="de">Ihr {appname} Konto {0} wurde erstellt und aktiviert.</entry>
-		<entry name="bg">Вашият {appname} профил {0} беше създаден и активиран.</entry>
-	</section>
-
-	<section name="linhome_account_creation_failed">
-		<entry name="default">An error has occurred. Please try again later or contact Linhome's support team. Error code: {0}</entry>
-		<entry name="fr">Une erreur est survenue. Réessayez ultérieurement ou contactez le service de support de Linhome. Code d'erreur: {0}</entry>
-		<entry name="pl">Wystąpił błąd. Spróbuj ponownie później lub skontaktuj się z zespołem pomocy Linhome. Kod błędu: {0}</entry>
-		<entry name="de">Ein Fehler ist aufgetreten. Versuchen Sie es später erneut oder wenden Sie sich an das Supportteam von Linhome. Fehlercode: {0}</entry>
-		<entry name="bg">Възникна грешка. Моля, опитайте отново по-късно или се свържете с екипа за поддръжка на Linhome. Код на грешката: {0}</entry>
-	</section>
-
 	<section name="linhome_account_creation_request_failed">
 		<entry name="default">Request failed. Please try again later or contact Linhome's support team.</entry>
 		<entry name="fr">Une erreur de requête est survenue. Rééssayez ultérieurement ou contactez le service de support de Linhome.</entry>
@@ -1750,86 +1482,6 @@
 	<!-- Android specifics end -->
 
 	<!-- OTP for account creation -->
-	<section name="otp_dialog_hint">
-		<entry name="default">XXXX</entry>
-		<entry name="fr">XXXX</entry>
-		<entry name="pl">XXXX</entry>
-		<entry name="de">XXXX</entry>
-		<entry name="bg">XXXX</entry>
-	</section>
-
-	<section name="otp_dialog_title">
-		<entry name="default">Verification Code</entry>
-		<entry name="fr">Code de vérification</entry>
-		<entry name="pl">Kod weryfikacyjny</entry>
-		<entry name="de">Verifizierungscode</entry>
-		<entry name="bg">Код за потвърждение</entry>
-	</section>
-
-	<section name="otp_dialog_message">
-		<entry name="default">Your account has been created. To activate it please enter the 4 digit verification you received by email. If you did'nt receive an email or wish to activate it later you can do so logging in https://subscribe.linhome.org/.</entry>
-		<entry name="fr">Votre compte a été créé. Pour l'activer, veuillez saisir le code de vérification à 4 chiffres que vous avez reçu par e-mail. Si vous n'avez pas reçu d'e-mail ou souhaitez l'activer plus tard, vous pouvez le faire en vous connectant sur https://subscribe.linhome.org/.</entry>
-		<entry name="pl">Twoje konto zostało utworzone. Aby je aktywować, wprowadź 4-cyfrowy kod weryfikacyjny otrzymany e-mailem. Jeśli nie otrzymałeś wiadomości e-mail lub chcesz aktywować konto później, możesz to zrobić logując się na https://subscribe.linhome.org/.</entry>
-		<entry name="de">Ihr Konto wurde erstellt. Um es zu aktivieren, geben Sie bitte den 4-stelligen Verifizierungscode ein, den Sie per E-Mail erhalten haben. Falls Sie keine E-Mail erhalten haben oder das Konto später aktivieren möchten, können Sie dies durch Anmeldung unter https://subscribe.linhome.org/ tun.</entry>
-		<entry name="bg">Вашият профил беше създаден. За да го активирате, въведете 4-цифрения код за потвърждение, който получихте по имейл. Ако не сте получили имейл или искате да го активирате по-късно, можете да го направите като влезете в https://subscribe.linhome.org/.</entry>
-	</section>
-
-	<section name="otp_validate">
-		<entry name="default">Verify</entry>
-		<entry name="fr">Vérifier</entry>
-		<entry name="pl">Zweryfikuj</entry>
-		<entry name="de">Bestätigen</entry>
-		<entry name="bg">Потвърди</entry>
-	</section>
-
-	<section name="otp_invalid_length">
-		<entry name="default">Invalid code length</entry>
-		<entry name="fr">Longueur du code invalide</entry>
-		<entry name="pl">Nieprawidłowa długość kodu</entry>
-		<entry name="de">Ungültige Codelänge</entry>
-		<entry name="bg">Невалидна дължина на кода</entry>
-	</section>
-
-	<section name="otp_cancelled">
-		<entry name="default">Your account has not been activated. To activate it visit https://subscribe.linhome.org and log into your account</entry>
-		<entry name="fr">Votre compte n'a pas été activé. Pour l'activer, rendez-vous sur https://subscribe.linhome.org et connectez-vous à votre compte.</entry>
-		<entry name="pl">Twoje konto nie zostało aktywowane. Aby je aktywować, odwiedź https://subscribe.linhome.org i zaloguj się na swoje konto.</entry>
-		<entry name="de">Ihr Konto wurde nicht aktiviert. Um es zu aktivieren, besuchen Sie https://subscribe.linhome.org und melden Sie sich bei Ihrem Konto an.</entry>
-		<entry name="bg">Вашият профил не беше активиран. За да го активирате, посетете https://subscribe.linhome.org и влезте в профила си.</entry>
-	</section>
-
-	<section name="otp_error_try_again_message">
-		<entry name="default">This code is not valid. Would you like to try again ?</entry>
-		<entry name="fr">Ce code n'est pas valide. Voulez-vous réessayer?</entry>
-		<entry name="pl">Ten kod jest nieprawidłowy. Czy chcesz spróbować ponownie?</entry>
-		<entry name="de">Dieser Code ist ungültig. Möchten Sie es erneut versuchen?</entry>
-		<entry name="bg">Този код е невалиден. Искате ли да опитате отново?</entry>
-	</section>
-
-	<section name="otp_error_try_again_title">
-		<entry name="default">Invalid code</entry>
-		<entry name="fr">Code invalide</entry>
-		<entry name="pl">Nieprawidłowy kod</entry>
-		<entry name="de">Ungültiger Code</entry>
-		<entry name="bg">Невалиден код</entry>
-	</section>
-
-	<section name="otp_try_again_button">
-		<entry name="default">Try again</entry>
-		<entry name="fr">Réessayer</entry>
-		<entry name="pl">Spróbuj ponownie</entry>
-		<entry name="de">Erneut versuchen</entry>
-		<entry name="bg">Опитайте отново</entry>
-	</section>
-
-	<section name="otp_do_not_try_again">
-		<entry name="default">Close</entry>
-		<entry name="fr">Fermer</entry>
-		<entry name="pl">Zamknij</entry>
-		<entry name="de">Schließen</entry>
-		<entry name="bg">Затвори</entry>
-	</section>
-
 	<section name="delete">
 		<entry name="default">Delete</entry>
 		<entry name="fr">Supprimer</entry>
@@ -1896,16 +1548,6 @@
 	<section name="settings_app_enabled">
 		<entry name="default">Receive intercom calls (Enable app)</entry>
 		<entry name="fr">Recevoir les appels (Activer l'app)</entry>
-	</section>
-
-	<section name="menu_app_enabled">
-		<entry name="default">Receive Calls: Active</entry>
-		<entry name="fr">Appels : Activés</entry>
-	</section>
-
-	<section name="menu_app_disabled">
-		<entry name="default">Receive Calls: Paused</entry>
-		<entry name="fr">Appels : En pause</entry>
 	</section>
 
 	<section name="toolbar_calls_active">
@@ -2397,15 +2039,6 @@
 		<entry name="pt">Deixar de enviar avisos ao local</entry>
 	</section>
 
-	<section name="import_remote_summary">
-		<entry name="default">Remote provisioning from {0}</entry>
-		<entry name="fr">Configuration à distance depuis {0}</entry>
-		<entry name="de">Fernkonfiguration von {0}</entry>
-		<entry name="es">Aprovisionamiento remoto desde {0}</entry>
-		<entry name="it">Configurazione remota da {0}</entry>
-		<entry name="pt">Configuração remota a partir de {0}</entry>
-	</section>
-
 	<section name="import_show_details">
 		<entry name="default">Show details and choose</entry>
 		<entry name="fr">Voir le détail et choisir</entry>
@@ -2449,15 +2082,6 @@
 		<entry name="es">Avisos al sitio</entry>
 		<entry name="it">Notifiche al sito</entry>
 		<entry name="pt">Avisos ao local</entry>
-	</section>
-
-	<section name="import_section_remote">
-		<entry name="default">Remote provisioning</entry>
-		<entry name="fr">Configuration à distance</entry>
-		<entry name="de">Fernkonfiguration</entry>
-		<entry name="es">Aprovisionamiento remoto</entry>
-		<entry name="it">Configurazione remota</entry>
-		<entry name="pt">Configuração remota</entry>
 	</section>
 
 	<section name="import_transport">
@@ -2584,15 +2208,6 @@
 		<entry name="es">No busca mensajes</entry>
 		<entry name="it">Non controlla i messaggi</entry>
 		<entry name="pt">Não procura mensagens</entry>
-	</section>
-
-	<section name="import_remote_insecure">
-		<entry name="default">Not encrypted (http)</entry>
-		<entry name="fr">Non chiffré (http)</entry>
-		<entry name="de">Unverschlüsselt (http)</entry>
-		<entry name="es">Sin cifrar (http)</entry>
-		<entry name="it">Non cifrato (http)</entry>
-		<entry name="pt">Sem encriptação (http)</entry>
 	</section>
 
 	<section name="import_apply">
@@ -2782,6 +2397,384 @@
 		<entry name="es">Toque para revisarlos y aplicarlos</entry>
 		<entry name="it">Tocca per controllarle e applicarle</entry>
 		<entry name="pt">Toque para as rever e aplicar</entry>
+	</section>
+
+	<section name="tab_doors">
+		<entry name="default">Doors</entry>
+		<entry name="fr">Portes</entry>
+		<entry name="de">Türen</entry>
+		<entry name="es">Puertas</entry>
+		<entry name="it">Porte</entry>
+		<entry name="pt">Portas</entry>
+	</section>
+
+	<section name="tab_history">
+		<entry name="default">History</entry>
+		<entry name="fr">Historique</entry>
+		<entry name="de">Verlauf</entry>
+		<entry name="es">Historial</entry>
+		<entry name="it">Cronologia</entry>
+		<entry name="pt">Histórico</entry>
+	</section>
+
+	<section name="tab_settings">
+		<entry name="default">Settings</entry>
+		<entry name="fr">Réglages</entry>
+		<entry name="de">Einstellungen</entry>
+		<entry name="es">Ajustes</entry>
+		<entry name="it">Impostazioni</entry>
+		<entry name="pt">Definições</entry>
+	</section>
+
+	<section name="scan_setup_code">
+		<entry name="default">Scan a setup code</entry>
+		<entry name="fr">Scanner un code de configuration</entry>
+		<entry name="de">Einrichtungscode scannen</entry>
+		<entry name="es">Escanear un código de configuración</entry>
+		<entry name="it">Scansiona un codice di configurazione</entry>
+		<entry name="pt">Ler um código de configuração</entry>
+	</section>
+
+	<section name="scan_setup_code_desc">
+		<entry name="default">Point the camera at the setup code from your site.</entry>
+		<entry name="fr">Pointez l'appareil photo vers le code de configuration de votre site.</entry>
+		<entry name="de">Richten Sie die Kamera auf den Einrichtungscode Ihres Standorts.</entry>
+		<entry name="es">Apunte la cámara al código de configuración de su sitio.</entry>
+		<entry name="it">Inquadra con la fotocamera il codice di configurazione del tuo sito.</entry>
+		<entry name="pt">Aponte a câmara para o código de configuração do seu local.</entry>
+	</section>
+
+	<section name="scan_setup_code_info">
+		<entry name="default">Your site shows this code on its Adonis Open page (for example in Home Assistant). Scanning it only shows what would change: nothing changes until you tap Apply.</entry>
+		<entry name="fr">Votre site affiche ce code sur sa page Adonis Open (par exemple dans Home Assistant). Le scanner montre seulement ce qui changerait : rien ne change avant que vous touchiez Appliquer.</entry>
+		<entry name="de">Ihr Standort zeigt diesen Code auf seiner Adonis-Open-Seite (zum Beispiel in Home Assistant). Beim Scannen sehen Sie nur, was sich ändern würde: Nichts ändert sich, bevor Sie auf Übernehmen tippen.</entry>
+		<entry name="es">Su sitio muestra este código en su página de Adonis Open (por ejemplo, en Home Assistant). Al escanearlo solo verá lo que cambiaría: nada cambia hasta que toque Aplicar.</entry>
+		<entry name="it">Il tuo sito mostra questo codice nella sua pagina di Adonis Open (ad esempio in Home Assistant). Scansionandolo vedi solo cosa cambierebbe: non cambia nulla finché non tocchi Applica.</entry>
+		<entry name="pt">O seu local mostra este código na página do Adonis Open (por exemplo, no Home Assistant). Ao lê-lo vê apenas o que mudaria: nada muda até tocar em Aplicar.</entry>
+	</section>
+
+	<section name="scan_not_setup_code">
+		<entry name="default">This isn't an Adonis Open setup code</entry>
+		<entry name="fr">Ce n'est pas un code de configuration Adonis Open</entry>
+		<entry name="de">Das ist kein Adonis-Open-Einrichtungscode</entry>
+		<entry name="es">Esto no es un código de configuración de Adonis Open</entry>
+		<entry name="it">Questo non è un codice di configurazione di Adonis Open</entry>
+		<entry name="pt">Isto não é um código de configuração do Adonis Open</entry>
+	</section>
+
+	<section name="import_title_from_site">
+		<entry name="default">Settings from {0}</entry>
+		<entry name="fr">Réglages de {0}</entry>
+		<entry name="de">Einstellungen von {0}</entry>
+		<entry name="es">Ajustes de {0}</entry>
+		<entry name="it">Impostazioni da {0}</entry>
+		<entry name="pt">Definições de {0}</entry>
+	</section>
+
+	<section name="import_nothing_until_apply">
+		<entry name="default">Check what will change, then tap Apply. Nothing changes until you do.</entry>
+		<entry name="fr">Vérifiez ce qui va changer, puis touchez Appliquer. Rien ne change avant.</entry>
+		<entry name="de">Prüfen Sie, was sich ändert, und tippen Sie dann auf Übernehmen. Vorher ändert sich nichts.</entry>
+		<entry name="es">Revise lo que va a cambiar y toque Aplicar. Nada cambia hasta entonces.</entry>
+		<entry name="it">Controlla cosa cambierà, poi tocca Applica. Fino ad allora non cambia nulla.</entry>
+		<entry name="pt">Veja o que vai mudar e toque em Aplicar. Até lá, nada muda.</entry>
+	</section>
+
+	<section name="import_source_home_assistant">
+		<entry name="default">You opened a setup link from Home Assistant.</entry>
+		<entry name="fr">Vous avez ouvert un lien de configuration depuis Home Assistant.</entry>
+		<entry name="de">Sie haben einen Einrichtungslink aus Home Assistant geöffnet.</entry>
+		<entry name="es">Ha abierto un enlace de configuración desde Home Assistant.</entry>
+		<entry name="it">Hai aperto un link di configurazione da Home Assistant.</entry>
+		<entry name="pt">Abriu uma ligação de configuração a partir do Home Assistant.</entry>
+	</section>
+
+	<section name="import_source_other_app">
+		<entry name="default">You opened a setup link from another app.</entry>
+		<entry name="fr">Vous avez ouvert un lien de configuration depuis une autre application.</entry>
+		<entry name="de">Sie haben einen Einrichtungslink aus einer anderen App geöffnet.</entry>
+		<entry name="es">Ha abierto un enlace de configuración desde otra aplicación.</entry>
+		<entry name="it">Hai aperto un link di configurazione da un'altra app.</entry>
+		<entry name="pt">Abriu uma ligação de configuração a partir de outra aplicação.</entry>
+	</section>
+
+	<section name="import_source_scanned">
+		<entry name="default">You scanned a setup code.</entry>
+		<entry name="fr">Vous avez scanné un code de configuration.</entry>
+		<entry name="de">Sie haben einen Einrichtungscode gescannt.</entry>
+		<entry name="es">Ha escaneado un código de configuración.</entry>
+		<entry name="it">Hai scansionato un codice di configurazione.</entry>
+		<entry name="pt">Leu um código de configuração.</entry>
+	</section>
+
+	<section name="import_source_site_update">
+		<entry name="default">Your site sent new settings for this phone.</entry>
+		<entry name="fr">Votre site a envoyé de nouveaux réglages pour ce téléphone.</entry>
+		<entry name="de">Ihr Standort hat neue Einstellungen für dieses Telefon gesendet.</entry>
+		<entry name="es">Su sitio ha enviado ajustes nuevos para este teléfono.</entry>
+		<entry name="it">Il tuo sito ha inviato nuove impostazioni per questo telefono.</entry>
+		<entry name="pt">O seu local enviou novas definições para este telemóvel.</entry>
+	</section>
+
+	<section name="import_source_pairing">
+		<entry name="default">Your site approved this phone on the Wi-Fi.</entry>
+		<entry name="fr">Votre site a approuvé ce téléphone sur le Wi-Fi.</entry>
+		<entry name="de">Ihr Standort hat dieses Telefon im WLAN bestätigt.</entry>
+		<entry name="es">Su sitio ha aprobado este teléfono en la Wi-Fi.</entry>
+		<entry name="it">Il tuo sito ha approvato questo telefono sulla rete Wi-Fi.</entry>
+		<entry name="pt">O seu local aprovou este telemóvel na rede Wi-Fi.</entry>
+	</section>
+
+	<section name="import_source_claim_link">
+		<entry name="default">You opened a setup link.</entry>
+		<entry name="fr">Vous avez ouvert un lien de configuration.</entry>
+		<entry name="de">Sie haben einen Einrichtungslink geöffnet.</entry>
+		<entry name="es">Ha abierto un enlace de configuración.</entry>
+		<entry name="it">Hai aperto un link di configurazione.</entry>
+		<entry name="pt">Abriu uma ligação de configuração.</entry>
+	</section>
+
+	<section name="settings_card_calls">
+		<entry name="default">Calls</entry>
+		<entry name="fr">Appels</entry>
+		<entry name="de">Anrufe</entry>
+		<entry name="es">Llamadas</entry>
+		<entry name="it">Chiamate</entry>
+		<entry name="pt">Chamadas</entry>
+	</section>
+
+	<section name="settings_card_appearance">
+		<entry name="default">Appearance</entry>
+		<entry name="fr">Apparence</entry>
+		<entry name="de">Darstellung</entry>
+		<entry name="es">Apariencia</entry>
+		<entry name="it">Aspetto</entry>
+		<entry name="pt">Aspeto</entry>
+	</section>
+
+	<section name="settings_card_history">
+		<entry name="default">History</entry>
+		<entry name="fr">Historique</entry>
+		<entry name="de">Verlauf</entry>
+		<entry name="es">Historial</entry>
+		<entry name="it">Cronologia</entry>
+		<entry name="pt">Histórico</entry>
+	</section>
+
+	<section name="settings_card_advanced">
+		<entry name="default">Advanced</entry>
+		<entry name="fr">Avancé</entry>
+		<entry name="de">Erweitert</entry>
+		<entry name="es">Avanzado</entry>
+		<entry name="it">Avanzate</entry>
+		<entry name="pt">Avançadas</entry>
+	</section>
+
+	<section name="settings_card_diagnostics">
+		<entry name="default">Diagnostics</entry>
+		<entry name="fr">Diagnostic</entry>
+		<entry name="de">Diagnose</entry>
+		<entry name="es">Diagnóstico</entry>
+		<entry name="it">Diagnostica</entry>
+		<entry name="pt">Diagnóstico</entry>
+	</section>
+
+	<section name="settings_card_about">
+		<entry name="default">About</entry>
+		<entry name="fr">À propos</entry>
+		<entry name="de">Über</entry>
+		<entry name="es">Acerca de</entry>
+		<entry name="it">Informazioni</entry>
+		<entry name="pt">Acerca de</entry>
+	</section>
+
+	<section name="settings_card_expanded">
+		<entry name="default">open</entry>
+		<entry name="fr">ouvert</entry>
+		<entry name="de">geöffnet</entry>
+		<entry name="es">abierto</entry>
+		<entry name="it">aperto</entry>
+		<entry name="pt">aberto</entry>
+	</section>
+
+	<section name="settings_card_collapsed">
+		<entry name="default">closed</entry>
+		<entry name="fr">fermé</entry>
+		<entry name="de">geschlossen</entry>
+		<entry name="es">cerrado</entry>
+		<entry name="it">chiuso</entry>
+		<entry name="pt">fechado</entry>
+	</section>
+
+	<section name="account_edit">
+		<entry name="default">Edit account</entry>
+		<entry name="fr">Modifier le compte</entry>
+		<entry name="de">Konto bearbeiten</entry>
+		<entry name="es">Editar la cuenta</entry>
+		<entry name="it">Modifica account</entry>
+		<entry name="pt">Editar a conta</entry>
+	</section>
+
+	<section name="account_save">
+		<entry name="default">Save</entry>
+		<entry name="fr">Enregistrer</entry>
+		<entry name="de">Speichern</entry>
+		<entry name="es">Guardar</entry>
+		<entry name="it">Salva</entry>
+		<entry name="pt">Guardar</entry>
+	</section>
+
+	<section name="account_saved">
+		<entry name="default">Account saved</entry>
+		<entry name="fr">Compte enregistré</entry>
+		<entry name="de">Konto gespeichert</entry>
+		<entry name="es">Cuenta guardada</entry>
+		<entry name="it">Account salvato</entry>
+		<entry name="pt">Conta guardada</entry>
+	</section>
+
+	<section name="account_save_failed">
+		<entry name="default">The account couldn't be saved. Check the user name and the domain.</entry>
+		<entry name="fr">Impossible d'enregistrer le compte. Vérifiez le nom d'utilisateur et le domaine.</entry>
+		<entry name="de">Das Konto konnte nicht gespeichert werden. Prüfen Sie Benutzername und Domäne.</entry>
+		<entry name="es">No se ha podido guardar la cuenta. Revise el usuario y el dominio.</entry>
+		<entry name="it">Impossibile salvare l'account. Controlla il nome utente e il dominio.</entry>
+		<entry name="pt">Não foi possível guardar a conta. Verifique o utilizador e o domínio.</entry>
+	</section>
+
+	<section name="account_password_keep_hint">
+		<entry name="default">Leave empty to keep the current one</entry>
+		<entry name="fr">Laisser vide pour garder l'actuel</entry>
+		<entry name="de">Leer lassen, um das aktuelle zu behalten</entry>
+		<entry name="es">Déjela vacía para mantener la actual</entry>
+		<entry name="it">Lascia vuoto per mantenere quella attuale</entry>
+		<entry name="pt">Deixe em branco para manter a atual</entry>
+	</section>
+
+	<section name="account_password_needed">
+		<entry name="default">Enter the password for this account</entry>
+		<entry name="fr">Saisissez le mot de passe de ce compte</entry>
+		<entry name="de">Geben Sie das Passwort für dieses Konto ein</entry>
+		<entry name="es">Introduzca la contraseña de esta cuenta</entry>
+		<entry name="it">Inserisci la password di questo account</entry>
+		<entry name="pt">Introduza a palavra-passe desta conta</entry>
+	</section>
+
+	<section name="account_new_settings_title">
+		<entry name="default">Get new settings from your site</entry>
+		<entry name="fr">Obtenir de nouveaux réglages de votre site</entry>
+		<entry name="de">Neue Einstellungen von Ihrem Standort holen</entry>
+		<entry name="es">Obtener ajustes nuevos de su sitio</entry>
+		<entry name="it">Ottieni nuove impostazioni dal tuo sito</entry>
+		<entry name="pt">Obter novas definições do seu local</entry>
+	</section>
+
+	<section name="account_forget">
+		<entry name="default">Forget account</entry>
+		<entry name="fr">Oublier le compte</entry>
+		<entry name="de">Konto vergessen</entry>
+		<entry name="es">Olvidar la cuenta</entry>
+		<entry name="it">Dimentica account</entry>
+		<entry name="pt">Esquecer a conta</entry>
+	</section>
+
+	<section name="account_forget_confirm">
+		<entry name="default">Forget this account on this phone? Calls stop, and the app can't connect again until you get new settings from your site.</entry>
+		<entry name="fr">Oublier ce compte sur ce téléphone ? Les appels s'arrêtent, et l'application ne pourra plus se connecter avant d'obtenir de nouveaux réglages de votre site.</entry>
+		<entry name="de">Dieses Konto auf diesem Telefon vergessen? Es kommen keine Anrufe mehr an, und die App kann sich erst wieder verbinden, wenn Sie neue Einstellungen von Ihrem Standort holen.</entry>
+		<entry name="es">¿Olvidar esta cuenta en este teléfono? Dejará de recibir llamadas y la aplicación no podrá volver a conectarse hasta que obtenga ajustes nuevos de su sitio.</entry>
+		<entry name="it">Dimenticare questo account su questo telefono? Le chiamate si fermano e l'app non potrà ricollegarsi finché non ottieni nuove impostazioni dal tuo sito.</entry>
+		<entry name="pt">Esquecer esta conta neste telemóvel? Deixa de receber chamadas e a aplicação só volta a ligar-se quando obtiver novas definições do seu local.</entry>
+	</section>
+
+	<section name="account_site">
+		<entry name="default">Site: {0}</entry>
+		<entry name="fr">Site : {0}</entry>
+		<entry name="de">Standort: {0}</entry>
+		<entry name="es">Sitio: {0}</entry>
+		<entry name="it">Sito: {0}</entry>
+		<entry name="pt">Local: {0}</entry>
+	</section>
+
+	<section name="account_transport">
+		<entry name="default">Transport: {0}</entry>
+		<entry name="fr">Transport : {0}</entry>
+		<entry name="de">Transport: {0}</entry>
+		<entry name="es">Transporte: {0}</entry>
+		<entry name="it">Trasporto: {0}</entry>
+		<entry name="pt">Transporte: {0}</entry>
+	</section>
+
+	<section name="account_status">
+		<entry name="default">Status: {0}</entry>
+		<entry name="fr">État : {0}</entry>
+		<entry name="de">Status: {0}</entry>
+		<entry name="es">Estado: {0}</entry>
+		<entry name="it">Stato: {0}</entry>
+		<entry name="pt">Estado: {0}</entry>
+	</section>
+
+	<section name="account_card_connecting">
+		<entry name="default">Connecting…</entry>
+		<entry name="fr">Connexion…</entry>
+		<entry name="de">Verbinden…</entry>
+		<entry name="es">Conectando…</entry>
+		<entry name="it">Connessione…</entry>
+		<entry name="pt">A ligar…</entry>
+	</section>
+
+	<section name="account_card_failed">
+		<entry name="default">Can't connect to {0}</entry>
+		<entry name="fr">Connexion impossible à {0}</entry>
+		<entry name="de">Keine Verbindung zu {0}</entry>
+		<entry name="es">No se puede conectar a {0}</entry>
+		<entry name="it">Impossibile connettersi a {0}</entry>
+		<entry name="pt">Não é possível ligar a {0}</entry>
+	</section>
+
+	<section name="account_card_retry">
+		<entry name="default">Retry</entry>
+		<entry name="fr">Réessayer</entry>
+		<entry name="de">Erneut versuchen</entry>
+		<entry name="es">Reintentar</entry>
+		<entry name="it">Riprova</entry>
+		<entry name="pt">Tentar de novo</entry>
+	</section>
+
+	<section name="account_card_setup_title">
+		<entry name="default">Set up Adonis Open</entry>
+		<entry name="fr">Configurer Adonis Open</entry>
+		<entry name="de">Adonis Open einrichten</entry>
+		<entry name="es">Configurar Adonis Open</entry>
+		<entry name="it">Configura Adonis Open</entry>
+		<entry name="pt">Configurar o Adonis Open</entry>
+	</section>
+
+	<section name="account_card_setup_text">
+		<entry name="default">Get your settings from your site, or enter a SIP account.</entry>
+		<entry name="fr">Obtenez vos réglages auprès de votre site, ou saisissez un compte SIP.</entry>
+		<entry name="de">Holen Sie Ihre Einstellungen von Ihrem Standort oder geben Sie ein SIP-Konto ein.</entry>
+		<entry name="es">Obtenga sus ajustes de su sitio o introduzca una cuenta SIP.</entry>
+		<entry name="it">Ottieni le impostazioni dal tuo sito oppure inserisci un account SIP.</entry>
+		<entry name="pt">Obtenha as definições do seu local ou introduza uma conta SIP.</entry>
+	</section>
+
+	<section name="assistant_enter_sip_manually">
+		<entry name="default">Enter a SIP account manually</entry>
+		<entry name="fr">Saisir un compte SIP manuellement</entry>
+		<entry name="de">SIP-Konto manuell eingeben</entry>
+		<entry name="es">Introducir una cuenta SIP manualmente</entry>
+		<entry name="it">Inserisci un account SIP manualmente</entry>
+		<entry name="pt">Introduzir uma conta SIP manualmente</entry>
+	</section>
+
+	<section name="devices_add">
+		<entry name="default">Add a door</entry>
+		<entry name="fr">Ajouter une porte</entry>
+		<entry name="de">Tür hinzufügen</entry>
+		<entry name="es">Añadir una puerta</entry>
+		<entry name="it">Aggiungi una porta</entry>
+		<entry name="pt">Adicionar uma porta</entry>
 	</section>
 
 </config>
