@@ -1056,6 +1056,12 @@
 		<entry name="default">{appname} {0} {1}</entry>
 	</section>
 		
+	<section name="about_based_on">
+		<entry name="default">Based on Linhome {0}</entry>
+		<entry name="fr">Basé sur Linhome {0}</entry>
+		<entry name="pt">Baseado no Linhome {0}</entry>
+	</section>
+
 	<section name="sdk_version">
 		<entry name="default">Linphone Core {0}</entry>
 	</section>
@@ -1543,6 +1549,12 @@
 
 	<section name="theme_obsidian">
 		<entry name="default">Obsidian &amp; Amber Gold</entry>
+	</section>
+
+	<section name="theme_dark">
+		<entry name="default">Dark</entry>
+		<entry name="fr">Sombre</entry>
+		<entry name="pt">Escuro</entry>
 	</section>
 
 	<section name="settings_app_enabled">

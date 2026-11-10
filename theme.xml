@@ -102,6 +102,31 @@
 		<entry name="progress_bar">#fbbf24</entry>
 	</section>
 
+	<!-- Dark: color_b/color_j are the text, color_d the cards and bars, color_f the page, color_c stays white (text and
+	     icons on the accent and on the call screens). -->
+	<section name="colors.dark">
+		<entry name="color_a">#ff6a1a</entry>
+		<entry name="color_b">#e2e8f0</entry>
+		<entry name="color_d">#1e293b</entry>
+		<entry name="color_ealpha_10">#33f43f5e</entry>
+		<entry name="color_e">#f43f5e</entry>
+		<entry name="color_f">#0b1220</entry>
+		<entry name="color_g">#94a3b8</entry>
+		<entry name="color_h">#334155</entry>
+		<entry name="color_i">#3b2314</entry>
+		<entry name="color_j">#020617</entry>
+		<entry name="color_l">#ffffff</entry>
+		<entry name="color_m">#60a5fa</entry>
+		<entry name="color_n">#ff1e293b</entry>
+		<entry name="color_o">#e04f00</entry>
+		<entry name="color_p">#7c3a12</entry>
+		<entry name="color_s">#fb923c</entry>
+		<entry name="color_t">#ff8547</entry>
+		<entry name="color_u">#1e293b</entry>
+		<entry name="notification_led_color">#ff6a1a</entry>
+		<entry name="progress_bar">#fb923c</entry>
+	</section>
+
 	<!-- Gradient color gradient-color.<key in app> -->
 
 	<section name="gradient-color.dark_light_vertical_gradient"> <!--Used by launch & call screens -->
@@ -114,7 +139,7 @@
 	<!-- Button effects DEFAULT/SELECTED/DISABLED selection-effect. One color for default state, one color for selected state <key in app> -->
 
 	<section name="selection-effect.sidemenu_option">
-		<entry name="default">color_c</entry>
+		<entry name="default">color_d</entry>
 		<entry name="selected">color_i</entry>
 	</section>
 
