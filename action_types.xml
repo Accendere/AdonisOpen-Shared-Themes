@@ -18,4 +18,9 @@
 		<entry name="icon">icons/unlock</entry>
 	</section>
 
+	<section name="action_open_garage">
+		<entry name="textkey">action_open_garage</entry>
+		<entry name="icon">icons/garage</entry>
+	</section>
+
 </config>

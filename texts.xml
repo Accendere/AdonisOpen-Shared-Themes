@@ -952,6 +952,18 @@
 		<entry name="bg">Отваряне на портата</entry>
 	</section>
 	
+	<section name="action_open_garage">
+		<entry name="default">Open the garage</entry>
+		<entry name="fr">Ouvrir le garage</entry>
+		<entry name="pt">Abrir a garagem</entry>
+	</section>
+
+	<section name="action_site_unavailable">
+		<entry name="default">"{0}" needs the connection to the building, which this app doesn't have. Scan the setup code again.</entry>
+		<entry name="fr">"{0}" a besoin de la connexion à l'immeuble, que cette application n'a pas. Scannez à nouveau le code de configuration.</entry>
+		<entry name="pt">"{0}" precisa da ligação ao edifício, que esta aplicação não tem. Leia de novo o código de configuração.</entry>
+	</section>
+
 	<section name="action_lightup">
 		<entry name="default">Switch on the light</entry>
 		<entry name="fr">Allumer la lumière</entry>
