@@ -964,6 +964,240 @@
 		<entry name="pt">"{0}" precisa da ligação ao edifício, que esta aplicação não tem. Leia de novo o código de configuração.</entry>
 	</section>
 
+	<section name="settings_card_webhooks">
+		<entry name="default">Connection to the building</entry>
+		<entry name="fr">Connexion à l'immeuble</entry>
+		<entry name="pt">Ligação ao edifício</entry>
+	</section>
+
+	<section name="settings_webhooks_none">
+		<entry name="default">This phone sends nothing to the building. Scan your setup code to connect it.</entry>
+		<entry name="fr">Ce téléphone n'envoie rien à l'immeuble. Scannez votre code de configuration pour le connecter.</entry>
+		<entry name="pt">Este telemóvel não envia nada ao edifício. Leia o seu código de configuração para o ligar.</entry>
+	</section>
+
+	<section name="settings_webhooks_intro">
+		<entry name="default">This phone tells {0} about your door calls, so the building can show who answered, run buttons like the garage and know when you pause calls. You choose what it sends.</entry>
+		<entry name="fr">Ce téléphone informe {0} de vos appels de porte, pour que l'immeuble puisse montrer qui a répondu, actionner des boutons comme le garage et savoir quand vous mettez les appels en pause. Vous choisissez ce qu'il envoie.</entry>
+		<entry name="pt">Este telemóvel informa {0} das suas chamadas da porta, para o edifício poder mostrar quem atendeu, acionar botões como o da garagem e saber quando pausa as chamadas. É você que escolhe o que envia.</entry>
+	</section>
+
+	<section name="settings_webhooks_edited">
+		<entry name="default">You changed these settings. Scanning a setup code again replaces your changes.</entry>
+		<entry name="fr">Vous avez modifié ces réglages. Scanner à nouveau un code de configuration remplace vos modifications.</entry>
+		<entry name="pt">Alterou estas definições. Ler de novo um código de configuração substitui as suas alterações.</entry>
+	</section>
+
+	<section name="settings_webhooks_address">
+		<entry name="default">Where they go</entry>
+		<entry name="fr">Où ils sont envoyés</entry>
+		<entry name="pt">Para onde vão</entry>
+	</section>
+
+	<section name="settings_webhooks_save">
+		<entry name="default">Save</entry>
+		<entry name="fr">Enregistrer</entry>
+		<entry name="pt">Guardar</entry>
+	</section>
+
+	<section name="settings_webhooks_saved">
+		<entry name="default">Saved. The building's administrators are told what you switched off.</entry>
+		<entry name="fr">Enregistré. Les administrateurs de l'immeuble sont informés de ce que vous avez désactivé.</entry>
+		<entry name="pt">Guardado. Os administradores do edifício são avisados do que desligou.</entry>
+	</section>
+
+	<section name="settings_webhooks_saved_elsewhere">
+		<entry name="default">Saved. Updates now go to the new place, and the building's access key was removed from this phone.</entry>
+		<entry name="fr">Enregistré. Les mises à jour vont maintenant au nouvel endroit, et la clé d'accès de l'immeuble a été retirée de ce téléphone.</entry>
+		<entry name="pt">Guardado. As atualizações vão agora para o novo sítio, e a chave de acesso do edifício foi retirada deste telemóvel.</entry>
+	</section>
+
+	<section name="settings_webhooks_invalid_address">
+		<entry name="default">That address can't be used. It must start with https:// and name a server.</entry>
+		<entry name="fr">Cette adresse ne peut pas être utilisée. Elle doit commencer par https:// et indiquer un serveur.</entry>
+		<entry name="pt">Esse endereço não pode ser usado. Tem de começar por https:// e indicar um servidor.</entry>
+	</section>
+
+	<section name="settings_webhooks_elsewhere_title">
+		<entry name="default">Send to a different place?</entry>
+		<entry name="fr">Envoyer à un autre endroit ?</entry>
+		<entry name="pt">Enviar para outro sítio?</entry>
+	</section>
+
+	<section name="settings_webhooks_elsewhere_message">
+		<entry name="default">Your phone will send these updates to {0} instead of {1}. The building's access key stays private: it is removed from this phone and never sent to {0}. The building's features on this phone (who answered, the garage button, calls paused) stop until you scan your setup code again.</entry>
+		<entry name="fr">Votre téléphone enverra ces mises à jour à {0} au lieu de {1}. La clé d'accès de l'immeuble reste privée : elle est retirée de ce téléphone et jamais envoyée à {0}. Les fonctions de l'immeuble sur ce téléphone (qui a répondu, le bouton du garage, appels en pause) s'arrêtent jusqu'à ce que vous scanniez à nouveau votre code de configuration.</entry>
+		<entry name="pt">O seu telemóvel vai enviar estas atualizações para {0} em vez de {1}. A chave de acesso do edifício fica privada: é retirada deste telemóvel e nunca é enviada para {0}. As funções do edifício neste telemóvel (quem atendeu, o botão da garagem, chamadas em pausa) param até voltar a ler o seu código de configuração.</entry>
+	</section>
+
+	<section name="settings_webhooks_elsewhere_confirm">
+		<entry name="default">Send there</entry>
+		<entry name="fr">Envoyer là-bas</entry>
+		<entry name="pt">Enviar para lá</entry>
+	</section>
+
+	<section name="import_webhook_replaces_edits">
+		<entry name="default">Replaces the changes you made in Settings</entry>
+		<entry name="fr">Remplace les modifications faites dans les Réglages</entry>
+		<entry name="pt">Substitui as alterações que fez nas Definições</entry>
+	</section>
+
+	<section name="webhook_event_door_action">
+		<entry name="default">Door buttons</entry>
+		<entry name="fr">Boutons de porte</entry>
+		<entry name="pt">Botões da porta</entry>
+	</section>
+
+	<section name="webhook_event_door_action_desc">
+		<entry name="default">When you press a button like Open door or the garage. Off: buttons the building runs, like the garage, stop working.</entry>
+		<entry name="fr">Quand vous appuyez sur un bouton comme Ouvrir la porte ou le garage. Désactivé : les boutons gérés par l'immeuble, comme le garage, ne fonctionnent plus.</entry>
+		<entry name="pt">Quando carrega num botão como Abrir porta ou o da garagem. Desligado: os botões geridos pelo edifício, como o da garagem, deixam de funcionar.</entry>
+	</section>
+
+	<section name="webhook_event_call_ringing">
+		<entry name="default">Ringing</entry>
+		<entry name="fr">Sonnerie</entry>
+		<entry name="pt">A tocar</entry>
+	</section>
+
+	<section name="webhook_event_call_ringing_desc">
+		<entry name="default">When a door call rings on this phone.</entry>
+		<entry name="fr">Quand un appel de porte sonne sur ce téléphone.</entry>
+		<entry name="pt">Quando uma chamada da porta toca neste telemóvel.</entry>
+	</section>
+
+	<section name="webhook_event_call_preview">
+		<entry name="default">Video preview</entry>
+		<entry name="fr">Aperçu vidéo</entry>
+		<entry name="pt">Pré-visualização</entry>
+	</section>
+
+	<section name="webhook_event_call_preview_desc">
+		<entry name="default">When you look at the door before answering.</entry>
+		<entry name="fr">Quand vous regardez la porte avant de répondre.</entry>
+		<entry name="pt">Quando vê a porta antes de atender.</entry>
+	</section>
+
+	<section name="webhook_event_call_answered">
+		<entry name="default">Answered</entry>
+		<entry name="fr">Répondu</entry>
+		<entry name="pt">Atendida</entry>
+	</section>
+
+	<section name="webhook_event_call_answered_desc">
+		<entry name="default">When you answer a door call. Off: the building can't say who answered.</entry>
+		<entry name="fr">Quand vous répondez à un appel de porte. Désactivé : l'immeuble ne peut pas dire qui a répondu.</entry>
+		<entry name="pt">Quando atende uma chamada da porta. Desligado: o edifício não consegue dizer quem atendeu.</entry>
+	</section>
+
+	<section name="webhook_event_call_declined">
+		<entry name="default">Declined</entry>
+		<entry name="fr">Refusé</entry>
+		<entry name="pt">Recusada</entry>
+	</section>
+
+	<section name="webhook_event_call_declined_desc">
+		<entry name="default">When you decline a door call.</entry>
+		<entry name="fr">Quand vous refusez un appel de porte.</entry>
+		<entry name="pt">Quando recusa uma chamada da porta.</entry>
+	</section>
+
+	<section name="webhook_event_call_ended">
+		<entry name="default">Call ended</entry>
+		<entry name="fr">Appel terminé</entry>
+		<entry name="pt">Chamada terminada</entry>
+	</section>
+
+	<section name="webhook_event_call_ended_desc">
+		<entry name="default">When a door call ends.</entry>
+		<entry name="fr">Quand un appel de porte se termine.</entry>
+		<entry name="pt">Quando uma chamada da porta termina.</entry>
+	</section>
+
+	<section name="webhook_event_call_summary">
+		<entry name="default">Call summary</entry>
+		<entry name="fr">Résumé d'appel</entry>
+		<entry name="pt">Resumo da chamada</entry>
+	</section>
+
+	<section name="webhook_event_call_summary_desc">
+		<entry name="default">A summary of each door call, for the building's call history.</entry>
+		<entry name="fr">Un résumé de chaque appel de porte, pour l'historique des appels de l'immeuble.</entry>
+		<entry name="pt">Um resumo de cada chamada da porta, para o histórico de chamadas do edifício.</entry>
+	</section>
+
+	<section name="webhook_event_calls_paused">
+		<entry name="default">Calls paused</entry>
+		<entry name="fr">Appels en pause</entry>
+		<entry name="pt">Chamadas em pausa</entry>
+	</section>
+
+	<section name="webhook_event_calls_paused_desc">
+		<entry name="default">When you pause door calls. Off: the building still thinks this phone takes calls.</entry>
+		<entry name="fr">Quand vous mettez les appels de porte en pause. Désactivé : l'immeuble croit que ce téléphone reçoit toujours les appels.</entry>
+		<entry name="pt">Quando pausa as chamadas da porta. Desligado: o edifício continua a achar que este telemóvel atende.</entry>
+	</section>
+
+	<section name="webhook_event_calls_resumed">
+		<entry name="default">Calls resumed</entry>
+		<entry name="fr">Appels repris</entry>
+		<entry name="pt">Chamadas retomadas</entry>
+	</section>
+
+	<section name="webhook_event_calls_resumed_desc">
+		<entry name="default">When you turn door calls back on.</entry>
+		<entry name="fr">Quand vous réactivez les appels de porte.</entry>
+		<entry name="pt">Quando volta a ligar as chamadas da porta.</entry>
+	</section>
+
+	<section name="webhook_event_state">
+		<entry name="default">Calls on or off</entry>
+		<entry name="fr">Appels activés ou non</entry>
+		<entry name="pt">Chamadas ligadas ou não</entry>
+	</section>
+
+	<section name="webhook_event_state_desc">
+		<entry name="default">Whether this phone takes door calls, sent when the app starts.</entry>
+		<entry name="fr">Si ce téléphone reçoit les appels de porte, envoyé au démarrage de l'application.</entry>
+		<entry name="pt">Se este telemóvel atende as chamadas da porta, enviado quando a aplicação arranca.</entry>
+	</section>
+
+	<section name="webhook_event_registration">
+		<entry name="default">Connection status</entry>
+		<entry name="fr">État de la connexion</entry>
+		<entry name="pt">Estado da ligação</entry>
+	</section>
+
+	<section name="webhook_event_registration_desc">
+		<entry name="default">Whether this phone is connected to the door's phone service, so the building can warn about problems.</entry>
+		<entry name="fr">Si ce téléphone est connecté au service téléphonique de la porte, pour que l'immeuble puisse signaler les problèmes.</entry>
+		<entry name="pt">Se este telemóvel está ligado ao serviço telefónico da porta, para o edifício poder avisar de problemas.</entry>
+	</section>
+
+	<section name="webhook_event_poll">
+		<entry name="default">Messages from the building</entry>
+		<entry name="fr">Messages de l'immeuble</entry>
+		<entry name="pt">Mensagens do edifício</entry>
+	</section>
+
+	<section name="webhook_event_poll_desc">
+		<entry name="default">The app checks for messages and new settings from the building, also in the background.</entry>
+		<entry name="fr">L'application vérifie les messages et nouveaux réglages de l'immeuble, aussi en arrière-plan.</entry>
+		<entry name="pt">A aplicação procura mensagens e novas definições do edifício, também em segundo plano.</entry>
+	</section>
+
+	<section name="webhook_event_poll_foreground">
+		<entry name="default">Messages while the app is open</entry>
+		<entry name="fr">Messages quand l'application est ouverte</entry>
+		<entry name="pt">Mensagens com a aplicação aberta</entry>
+	</section>
+
+	<section name="webhook_event_poll_foreground_desc">
+		<entry name="default">The app checks for messages from the building while it is on screen.</entry>
+		<entry name="fr">L'application vérifie les messages de l'immeuble quand elle est à l'écran.</entry>
+		<entry name="pt">A aplicação procura mensagens do edifício enquanto está no ecrã.</entry>
+	</section>
+
 	<section name="action_lightup">
 		<entry name="default">Switch on the light</entry>
 		<entry name="fr">Allumer la lumière</entry>
