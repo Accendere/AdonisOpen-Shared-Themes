@@ -123,6 +123,8 @@
 		<entry name="color_s">#fb923c</entry>
 		<entry name="color_t">#ff8547</entry>
 		<entry name="color_u">#1e293b</entry>
+		<!-- Settings section headers and the selected tab: a slate a step lighter than the cards (color_d). Only Dark sets it; the others use color_i. -->
+		<entry name="color_v">#2c3a52</entry>
 		<entry name="notification_led_color">#ff6a1a</entry>
 		<entry name="progress_bar">#fb923c</entry>
 	</section>
