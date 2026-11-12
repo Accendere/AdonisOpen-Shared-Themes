@@ -1198,6 +1198,18 @@
 		<entry name="pt">A aplicação procura mensagens do edifício enquanto está no ecrã.</entry>
 	</section>
 
+	<section name="snapshot_open">
+		<entry name="default">{0}: last image, tap to enlarge</entry>
+		<entry name="fr">{0} : dernière image, touchez pour agrandir</entry>
+		<entry name="pt">{0}: última imagem, toque para ampliar</entry>
+	</section>
+
+	<section name="snapshot_close">
+		<entry name="default">Close</entry>
+		<entry name="fr">Fermer</entry>
+		<entry name="pt">Fechar</entry>
+	</section>
+
 	<section name="action_lightup">
 		<entry name="default">Switch on the light</entry>
 		<entry name="fr">Allumer la lumière</entry>
