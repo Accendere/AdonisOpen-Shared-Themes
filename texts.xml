@@ -3047,4 +3047,70 @@
 		<entry name="pt">Adicionar uma porta</entry>
 	</section>
 
+	<section name="account_paused_at_sites">
+		<entry name="default">Paused at {0}</entry>
+		<entry name="fr">En pause à {0}</entry>
+		<entry name="pt">Em pausa em {0}</entry>
+	</section>
+
+	<section name="import_site_new">
+		<entry name="default">Adds the site {0}</entry>
+		<entry name="fr">Ajoute le site {0}</entry>
+		<entry name="pt">Adiciona o local {0}</entry>
+	</section>
+
+	<section name="import_site_known">
+		<entry name="default">Updates the site {0}</entry>
+		<entry name="fr">Met à jour le site {0}</entry>
+		<entry name="pt">Atualiza o local {0}</entry>
+	</section>
+
+	<section name="import_sip_kept">
+		<entry name="default">Your account stays {0}: this phone uses one account for all its sites, and replacing it would affect the others. Tick the account under Show details to replace it.</entry>
+		<entry name="fr">Votre compte reste {0} : ce téléphone utilise un seul compte pour tous ses sites, et le remplacer toucherait les autres. Cochez le compte dans Afficher les détails pour le remplacer.</entry>
+		<entry name="pt">A sua conta continua {0}: este telemóvel usa uma só conta para todos os seus locais, e substituí-la afetaria os outros. Marque a conta em Mostrar detalhes para a substituir.</entry>
+	</section>
+
+	<section name="import_sip_one_account">
+		<entry name="default">This phone uses one account for all its sites. Replacing it affects the other sites.</entry>
+		<entry name="fr">Ce téléphone utilise un seul compte pour tous ses sites. Le remplacer touche les autres sites.</entry>
+		<entry name="pt">Este telemóvel usa uma só conta para todos os seus locais. Substituí-la afeta os outros locais.</entry>
+	</section>
+
+	<section name="settings_site_calls">
+		<entry name="default">Receive calls at this site</entry>
+		<entry name="fr">Recevoir les appels de ce site</entry>
+		<entry name="pt">Receber chamadas deste local</entry>
+	</section>
+
+	<section name="settings_site_calls_desc">
+		<entry name="default">When off, calls from the doors of {0} are declined and {0} is told you are not taking calls. Your other sites are not affected.</entry>
+		<entry name="fr">Désactivé, les appels des portes de {0} sont refusés et {0} est informé que vous ne prenez pas d'appels. Vos autres sites ne sont pas touchés.</entry>
+		<entry name="pt">Desligado, as chamadas das portas de {0} são recusadas e {0} é informado de que não está a atender chamadas. Os seus outros locais não são afetados.</entry>
+	</section>
+
+	<section name="settings_site_remove">
+		<entry name="default">Remove this site</entry>
+		<entry name="fr">Retirer ce site</entry>
+		<entry name="pt">Remover este local</entry>
+	</section>
+
+	<section name="settings_site_remove_title">
+		<entry name="default">Remove {0}?</entry>
+		<entry name="fr">Retirer {0} ?</entry>
+		<entry name="pt">Remover {0}?</entry>
+	</section>
+
+	<section name="settings_site_remove_message">
+		<entry name="default">This phone stops telling {0} about your calls, its doors are removed from this phone, and {0} is told you are no longer taking calls. Your account stays, and so do your other sites.</entry>
+		<entry name="fr">Ce téléphone n'informe plus {0} de vos appels, ses portes sont retirées de ce téléphone, et {0} est informé que vous ne prenez plus d'appels. Votre compte reste, ainsi que vos autres sites.</entry>
+		<entry name="pt">Este telemóvel deixa de informar {0} das suas chamadas, as suas portas são removidas deste telemóvel, e {0} é informado de que já não está a atender chamadas. A sua conta e os seus outros locais ficam.</entry>
+	</section>
+
+	<section name="settings_site_remove_confirm">
+		<entry name="default">Remove</entry>
+		<entry name="fr">Retirer</entry>
+		<entry name="pt">Remover</entry>
+	</section>
+
 </config>
