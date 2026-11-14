@@ -2669,6 +2669,42 @@
 		<entry name="pt">Toque para as rever e aplicar</entry>
 	</section>
 
+	<section name="site_receive_calls_on_title">
+		<entry name="default">{0} turned your door calls on</entry>
+		<entry name="fr">{0} a activé vos appels de porte</entry>
+		<entry name="de">{0} hat Ihre Türanrufe eingeschaltet</entry>
+		<entry name="es">{0} activó sus llamadas de la puerta</entry>
+		<entry name="it">{0} ha attivato le chiamate della porta</entry>
+		<entry name="pt">{0} ligou as suas chamadas da porta</entry>
+	</section>
+
+	<section name="site_receive_calls_off_title">
+		<entry name="default">{0} paused your door calls</entry>
+		<entry name="fr">{0} a mis vos appels de porte en pause</entry>
+		<entry name="de">{0} hat Ihre Türanrufe pausiert</entry>
+		<entry name="es">{0} pausó sus llamadas de la puerta</entry>
+		<entry name="it">{0} ha messo in pausa le chiamate della porta</entry>
+		<entry name="pt">{0} pôs as suas chamadas da porta em pausa</entry>
+	</section>
+
+	<section name="site_receive_calls_by">
+		<entry name="default">Changed by {0}</entry>
+		<entry name="fr">Modifié par {0}</entry>
+		<entry name="de">Geändert von {0}</entry>
+		<entry name="es">Cambiado por {0}</entry>
+		<entry name="it">Modificato da {0}</entry>
+		<entry name="pt">Alterado por {0}</entry>
+	</section>
+
+	<section name="site_receive_calls_text">
+		<entry name="default">Changed at the site</entry>
+		<entry name="fr">Modifié sur le site</entry>
+		<entry name="de">Am Standort geändert</entry>
+		<entry name="es">Cambiado en el sitio</entry>
+		<entry name="it">Modificato sul sito</entry>
+		<entry name="pt">Alterado no local</entry>
+	</section>
+
 	<section name="tab_doors">
 		<entry name="default">Doors</entry>
 		<entry name="fr">Portes</entry>
