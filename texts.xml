@@ -3149,4 +3149,58 @@
 		<entry name="pt">Remover</entry>
 	</section>
 
+	<section name="call_result_door_action">
+		<entry name="default">Door button pressed on this phone</entry>
+		<entry name="fr">Bouton de la porte appuyé sur ce téléphone</entry>
+		<entry name="de">Türtaste auf diesem Telefon gedrückt</entry>
+		<entry name="es">Botón de la puerta pulsado en este teléfono</entry>
+		<entry name="it">Pulsante della porta premuto su questo telefono</entry>
+		<entry name="pt">Botão da porta premido neste telefone</entry>
+	</section>
+
+	<section name="call_result_missed">
+		<entry name="default">Nobody answered</entry>
+		<entry name="fr">Personne n'a répondu</entry>
+		<entry name="de">Niemand hat geantwortet</entry>
+		<entry name="es">Nadie contestó</entry>
+		<entry name="it">Nessuno ha risposto</entry>
+		<entry name="pt">Ninguém atendeu</entry>
+	</section>
+
+	<section name="call_result_declined">
+		<entry name="default">Declined on this phone</entry>
+		<entry name="fr">Refusé sur ce téléphone</entry>
+		<entry name="de">Auf diesem Telefon abgelehnt</entry>
+		<entry name="es">Rechazada en este teléfono</entry>
+		<entry name="it">Rifiutata su questo telefono</entry>
+		<entry name="pt">Recusada neste telefone</entry>
+	</section>
+
+	<section name="call_result_answered">
+		<entry name="default">Answered on this phone</entry>
+		<entry name="fr">Répondu sur ce téléphone</entry>
+		<entry name="de">Auf diesem Telefon angenommen</entry>
+		<entry name="es">Contestada en este teléfono</entry>
+		<entry name="it">Risposta su questo telefono</entry>
+		<entry name="pt">Atendida neste telefone</entry>
+	</section>
+
+	<section name="call_result_previewed">
+		<entry name="default">Seen on this phone, not answered</entry>
+		<entry name="fr">Vu sur ce téléphone, sans réponse</entry>
+		<entry name="de">Auf diesem Telefon gesehen, nicht angenommen</entry>
+		<entry name="es">Vista en este teléfono, sin contestar</entry>
+		<entry name="it">Vista su questo telefono, senza risposta</entry>
+		<entry name="pt">Vista neste telefone, sem atender</entry>
+	</section>
+
+	<section name="call_result_elsewhere">
+		<entry name="default">Answered on another device</entry>
+		<entry name="fr">Répondu sur un autre appareil</entry>
+		<entry name="de">Auf einem anderen Gerät angenommen</entry>
+		<entry name="es">Contestada en otro dispositivo</entry>
+		<entry name="it">Risposta su un altro dispositivo</entry>
+		<entry name="pt">Atendida noutro dispositivo</entry>
+	</section>
+
 </config>
