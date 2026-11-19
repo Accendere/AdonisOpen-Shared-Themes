@@ -1596,6 +1596,31 @@
 		<entry name="pl">Nie można połączyć się z urządzeniem. Sprawdź jego konfigurację.</entry>
 		<entry name="de">Das Gerät konnte nicht erreicht werden. Überprüfen Sie die Konfiguration oder Ihre Netzwerkverbindung.</entry>
 		<entry name="bg">Устройството не може да бъде открито. Проверете настройките му или мрежовата си връзка.</entry>
+		<entry name="pt">Não foi possível contactar o dispositivo. Verifique a configuração dele ou a ligação à rede.</entry>
+	</section>
+	
+	<section name="unable_to_call_device_busy">
+		<entry name="default">The device is busy in another call, for example a visitor's call that is still ringing. Try again when that call ends.</entry>
+		<entry name="fr">L'appareil est occupé par un autre appel, par exemple celui d'un visiteur qui sonne encore. Réessayez quand cet appel sera terminé.</entry>
+		<entry name="pt">O dispositivo está ocupado noutra chamada, por exemplo a de um visitante que ainda está a tocar. Tente de novo quando essa chamada terminar.</entry>
+	</section>
+	
+	<section name="unable_to_call_device_declined">
+		<entry name="default">The device declined the call.</entry>
+		<entry name="fr">L'appareil a refusé l'appel.</entry>
+		<entry name="pt">O dispositivo recusou a chamada.</entry>
+	</section>
+	
+	<section name="unable_to_call_device_offline">
+		<entry name="default">The device is not connected right now: it may be off or restarting. Try again in a moment.</entry>
+		<entry name="fr">L'appareil n'est pas connecté pour le moment : il est peut-être éteint ou en train de redémarrer. Réessayez dans un instant.</entry>
+		<entry name="pt">O dispositivo não está ligado neste momento: pode estar desligado ou a reiniciar. Tente de novo daqui a pouco.</entry>
+	</section>
+	
+	<section name="unable_to_call_device_forbidden">
+		<entry name="default">The SIP server refused this phone's account. Check the account in Settings.</entry>
+		<entry name="fr">Le serveur SIP a refusé le compte de ce téléphone. Vérifiez le compte dans les réglages.</entry>
+		<entry name="pt">O servidor SIP recusou a conta deste telefone. Verifique a conta nas Definições.</entry>
 	</section>
 	
 	<section name="unable_to_accept_call_gsm_call_in_progress">
