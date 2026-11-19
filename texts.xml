@@ -1623,6 +1623,90 @@
 		<entry name="pt">O servidor SIP recusou a conta deste telefone. Verifique a conta nas Definições.</entry>
 	</section>
 	
+	<section name="ring_check_button">
+		<entry name="default">{0} is ringing: check the call</entry>
+		<entry name="fr">{0} sonne : voir l'appel</entry>
+		<entry name="pt">{0} está a tocar: ver a chamada</entry>
+	</section>
+	
+	<section name="ring_check_button_unknown">
+		<entry name="default">The door is ringing: check the call</entry>
+		<entry name="fr">La porte sonne : voir l'appel</entry>
+		<entry name="pt">A porta está a tocar: ver a chamada</entry>
+	</section>
+	
+	<section name="ring_check_title">
+		<entry name="default">{0} is ringing</entry>
+		<entry name="fr">{0} sonne</entry>
+		<entry name="pt">{0} está a tocar</entry>
+	</section>
+	
+	<section name="ring_check_title_unknown">
+		<entry name="default">The door is ringing</entry>
+		<entry name="fr">La porte sonne</entry>
+		<entry name="pt">A porta está a tocar</entry>
+	</section>
+	
+	<section name="ring_check_loading">
+		<entry name="default">Getting the camera picture…</entry>
+		<entry name="fr">Récupération de l'image de la caméra…</entry>
+		<entry name="pt">A obter a imagem da câmara…</entry>
+	</section>
+	
+	<section name="ring_check_no_picture">
+		<entry name="default">No picture from the camera.</entry>
+		<entry name="fr">Pas d'image de la caméra.</entry>
+		<entry name="pt">Sem imagem da câmara.</entry>
+	</section>
+	
+	<section name="ring_check_picture_desc">
+		<entry name="default">Who is at the door</entry>
+		<entry name="fr">Qui est à la porte</entry>
+		<entry name="pt">Quem está à porta</entry>
+	</section>
+	
+	<section name="ring_check_open">
+		<entry name="default">Open the door</entry>
+		<entry name="fr">Ouvrir la porte</entry>
+		<entry name="pt">Abrir a porta</entry>
+	</section>
+	
+	<section name="ring_check_opening">
+		<entry name="default">Opening…</entry>
+		<entry name="fr">Ouverture…</entry>
+		<entry name="pt">A abrir…</entry>
+	</section>
+	
+	<section name="ring_check_opened">
+		<entry name="default">Door opened. The phones stopped ringing.</entry>
+		<entry name="fr">Porte ouverte. Les téléphones ont arrêté de sonner.</entry>
+		<entry name="pt">Porta aberta. Os telefones pararam de tocar.</entry>
+	</section>
+	
+	<section name="ring_check_ended">
+		<entry name="default">The call has ended.</entry>
+		<entry name="fr">L'appel est terminé.</entry>
+		<entry name="pt">A chamada terminou.</entry>
+	</section>
+	
+	<section name="ring_check_failed">
+		<entry name="default">The door did not open. Try again.</entry>
+		<entry name="fr">La porte ne s'est pas ouverte. Réessayez.</entry>
+		<entry name="pt">A porta não abriu. Tente de novo.</entry>
+	</section>
+	
+	<section name="ring_check_no_answer">
+		<entry name="default">The building did not answer. Try again.</entry>
+		<entry name="fr">Le bâtiment n'a pas répondu. Réessayez.</entry>
+		<entry name="pt">O edifício não respondeu. Tente de novo.</entry>
+	</section>
+	
+	<section name="ring_check_close">
+		<entry name="default">Close</entry>
+		<entry name="fr">Fermer</entry>
+		<entry name="pt">Fechar</entry>
+	</section>
+	
 	<section name="unable_to_accept_call_gsm_call_in_progress">
 		<entry name="default">Phone call must be terminated before accepting {appname} call</entry>
 		<entry name="fr">L'appel téléphonique doit être terminé avant d'accepter l'appel {appname}</entry>
