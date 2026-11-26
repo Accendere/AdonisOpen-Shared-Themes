@@ -3312,4 +3312,16 @@
 		<entry name="pt">Atendida noutro dispositivo</entry>
 	</section>
 
+	<section name="device_info_calls_toggle">
+		<entry name="default">Receive calls from this door</entry>
+		<entry name="fr">Recevoir les appels de cette porte</entry>
+		<entry name="pt">Receber chamadas desta porta</entry>
+	</section>
+
+	<section name="device_info_calls_off_note">
+		<entry name="default">Off: this phone turns down this door's calls without ringing. The site sees no change.</entry>
+		<entry name="fr">Désactivé : ce téléphone refuse les appels de cette porte sans sonner. Le site ne voit aucun changement.</entry>
+		<entry name="pt">Desligado: este telemóvel recusa as chamadas desta porta sem tocar. O local não nota diferença.</entry>
+	</section>
+
 </config>
